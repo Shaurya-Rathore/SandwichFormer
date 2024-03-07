@@ -1,0 +1,165 @@
+
+Max Length for sentence = 55
+Processing Epoch 00:   0%|                                                                                                                                                           | 0/16838 [00:00<?, ?it/s]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                    | 1/16838 [00:13<64:54:01, 13.88s/it, loss=0.910]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   0%|                                                                                                                                    | 2/16838 [00:33<66:50:09, 14.29s/it, loss=0.597]
+torch.Size([4, 1])
+
+Processing Epoch 00:   0%|                                                                                                                                    | 3/16838 [00:38<57:06:33, 12.21s/it, loss=0.597]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                    | 4/16838 [00:47<51:59:45, 11.12s/it, loss=0.745]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                    | 5/16838 [00:57<49:08:06, 10.51s/it, loss=0.595]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   0%|                                                                                                                                    | 6/16838 [01:11<47:41:05, 10.20s/it, loss=0.669]
+torch.Size([4, 1])
+
+Processing Epoch 00:   0%|                                                                                                                                    | 7/16838 [01:16<46:41:51,  9.99s/it, loss=0.669]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                    | 8/16838 [01:25<45:58:52,  9.84s/it, loss=0.598]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                    | 9/16838 [01:35<45:23:23,  9.71s/it, loss=0.798]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                   | 10/16838 [01:44<45:11:54,  9.67s/it, loss=0.975]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                   | 11/16838 [01:54<45:13:58,  9.68s/it, loss=0.481]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                   | 12/16838 [02:03<44:53:00,  9.60s/it, loss=0.905]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                   | 13/16838 [02:13<45:12:10,  9.67s/it, loss=0.640]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                   | 14/16838 [02:23<44:57:19,  9.62s/it, loss=1.036]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                   | 15/16838 [02:32<44:47:03,  9.58s/it, loss=0.432]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|                                                                                                                                   | 16/16838 [02:42<44:47:15,  9.58s/it, loss=0.699]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 17/16838 [02:51<44:51:10,  9.60s/it, loss=0.708]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 18/16838 [03:01<44:50:29,  9.60s/it, loss=0.707]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 19/16838 [03:10<44:36:55,  9.55s/it, loss=0.703]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 20/16838 [03:20<44:42:15,  9.57s/it, loss=0.727]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 21/16838 [03:30<45:09:08,  9.67s/it, loss=0.759]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 22/16838 [03:39<44:55:54,  9.62s/it, loss=0.687]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 23/16838 [03:54<44:43:27,  9.58s/it, loss=0.691]
+torch.Size([4, 1])
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 24/16838 [03:58<44:38:06,  9.56s/it, loss=0.691]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 25/16838 [04:08<44:33:50,  9.54s/it, loss=0.690]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 26/16838 [04:18<44:49:22,  9.60s/it, loss=0.690]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 27/16838 [04:27<44:41:06,  9.57s/it, loss=0.749]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 28/16838 [04:37<44:32:01,  9.54s/it, loss=0.695]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 29/16838 [04:46<44:28:56,  9.53s/it, loss=0.713]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 30/16838 [04:56<44:52:18,  9.61s/it, loss=1.278]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                  | 31/16838 [05:09<46:34:32,  9.98s/it, loss=0.717]
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer_pls_work\longformerIMDB\train.py", line 164, in <module>
+    train_model(config)
+  File "c:\Shaurya\Longformer_pls_work\longformerIMDB\train.py", line 123, in train_model
+    encoder_output = model.encode(encoder_input, encoder_mask) # (B, Seq_Len, d_model)
+  File "c:\Shaurya\Longformer_pls_work\longformerIMDB\model.py", line 177, in encode
+    return self.encoder(src, src_mask)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "c:\Shaurya\Longformer_pls_work\longformerIMDB\model.py", line 163, in forward
+    x = layer(x, mask)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "c:\Shaurya\Longformer_pls_work\longformerIMDB\model.py", line 149, in forward
+    x = self.skip[0](x, lambda x: self.selfAttentionHead(x, x, x, src_mask))
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "c:\Shaurya\Longformer_pls_work\longformerIMDB\model.py", line 123, in forward
+    return x + self.dropout(sublayer(self.norm(x)))
+  File "c:\Shaurya\Longformer_pls_work\longformerIMDB\model.py", line 149, in <lambda>
+    x = self.skip[0](x, lambda x: self.selfAttentionHead(x, x, x, src_mask))
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "c:\Shaurya\Longformer_pls_work\longformerIMDB\model.py", line 109, in forward
+    x, self.attention_scores = MultiHeadAttentionBlock.attention(query, key, value, mask, self.dropout)
+  File "c:\Shaurya\Longformer_pls_work\longformerIMDB\model.py", line 97, in attention
+    attention_scores = dropout(attention_scores)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1507, in _wrapped_call_impl
+    def _wrapped_call_impl(self, *args, **kwargs):
+KeyboardInterrupt
