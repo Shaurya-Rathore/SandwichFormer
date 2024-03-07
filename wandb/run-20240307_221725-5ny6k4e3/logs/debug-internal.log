@@ -1,0 +1,5 @@
+2024-03-07 22:17:25,901 INFO    StreamThr :27092 [internal.py:wandb_internal():86] W&B internal server running at pid: 27092, started at: 2024-03-07 22:17:25.901260
+2024-03-07 22:17:25,903 DEBUG   HandlerThread:27092 [handler.py:handle_request():146] handle_request: status
+2024-03-07 22:17:25,906 INFO    WriterThread:27092 [datastore.py:open_for_write():87] open: C:\Shaurya\Longformer2\wandb\run-20240307_221725-5ny6k4e3\run-5ny6k4e3.wandb
+2024-03-07 22:17:25,909 DEBUG   SenderThread:27092 [sender.py:send():378] send: header
+2024-03-07 22:17:25,975 DEBUG   SenderThread:27092 [sender.py:send():378] send: run

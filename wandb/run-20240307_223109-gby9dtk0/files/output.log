@@ -1,0 +1,861 @@
+
+Max Length for sentence = 44
+Processing Epoch 00:   0%|                                                                                                                                                                             | 0/2138 [00:00<?, ?it/s]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   0%|                                                                                                                                                       | 1/2138 [00:13<5:39:46,  9.54s/it, loss=1.215]
+torch.Size([4, 1])
+
+Processing Epoch 00:   0%|▏                                                                                                                                                      | 2/2138 [00:16<4:53:47,  8.25s/it, loss=1.215]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▏                                                                                                                                                      | 3/2138 [00:25<4:54:04,  8.26s/it, loss=0.968]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▎                                                                                                                                                      | 4/2138 [00:34<5:12:43,  8.79s/it, loss=1.023]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▎                                                                                                                                                      | 5/2138 [00:43<5:16:36,  8.91s/it, loss=0.575]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▍                                                                                                                                                      | 6/2138 [00:53<5:23:18,  9.10s/it, loss=0.582]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   0%|▍                                                                                                                                                      | 7/2138 [01:07<5:26:57,  9.21s/it, loss=0.769]
+torch.Size([4, 1])
+
+Processing Epoch 00:   0%|▌                                                                                                                                                      | 8/2138 [01:12<5:30:29,  9.31s/it, loss=0.769]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▋                                                                                                                                                      | 9/2138 [01:21<5:32:17,  9.36s/it, loss=0.884]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   0%|▋                                                                                                                                                     | 10/2138 [01:31<5:34:41,  9.44s/it, loss=0.629]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|▊                                                                                                                                                     | 11/2138 [01:41<5:40:10,  9.60s/it, loss=0.785]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|▊                                                                                                                                                     | 12/2138 [01:50<5:37:41,  9.53s/it, loss=0.257]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|▉                                                                                                                                                     | 13/2138 [02:00<5:35:44,  9.48s/it, loss=0.599]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   1%|▉                                                                                                                                                     | 14/2138 [02:16<5:43:56,  9.72s/it, loss=0.775]
+torch.Size([4, 1])
+
+Processing Epoch 00:   1%|█                                                                                                                                                     | 15/2138 [02:20<5:52:01,  9.95s/it, loss=0.775]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█                                                                                                                                                     | 16/2138 [02:30<5:48:51,  9.86s/it, loss=0.708]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▏                                                                                                                                                    | 17/2138 [02:40<5:44:50,  9.75s/it, loss=0.728]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▎                                                                                                                                                    | 18/2138 [02:49<5:41:25,  9.66s/it, loss=0.869]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▎                                                                                                                                                    | 19/2138 [02:59<5:42:15,  9.69s/it, loss=0.592]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▍                                                                                                                                                    | 20/2138 [03:08<5:40:06,  9.63s/it, loss=0.887]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▍                                                                                                                                                    | 21/2138 [03:18<5:40:11,  9.64s/it, loss=0.859]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   1%|█▌                                                                                                                                                    | 22/2138 [03:32<5:37:48,  9.58s/it, loss=0.717]
+torch.Size([4, 1])
+
+Processing Epoch 00:   1%|█▌                                                                                                                                                    | 23/2138 [03:37<5:35:33,  9.52s/it, loss=0.717]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▋                                                                                                                                                    | 24/2138 [03:46<5:35:10,  9.51s/it, loss=0.900]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▊                                                                                                                                                    | 25/2138 [03:56<5:32:56,  9.45s/it, loss=0.700]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▊                                                                                                                                                    | 26/2138 [04:05<5:30:34,  9.39s/it, loss=0.736]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▉                                                                                                                                                    | 27/2138 [04:14<5:32:45,  9.46s/it, loss=0.723]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|█▉                                                                                                                                                    | 28/2138 [04:24<5:33:31,  9.48s/it, loss=0.759]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|██                                                                                                                                                    | 29/2138 [04:34<5:36:14,  9.57s/it, loss=1.107]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|██                                                                                                                                                    | 30/2138 [04:43<5:33:44,  9.50s/it, loss=0.713]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   1%|██▏                                                                                                                                                   | 31/2138 [04:52<5:32:40,  9.47s/it, loss=0.928]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   1%|██▏                                                                                                                                                   | 32/2138 [05:07<5:30:39,  9.42s/it, loss=0.595]
+torch.Size([4, 1])
+
+Processing Epoch 00:   2%|██▎                                                                                                                                                   | 33/2138 [05:11<5:28:57,  9.38s/it, loss=0.595]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|██▍                                                                                                                                                   | 34/2138 [05:20<5:29:44,  9.40s/it, loss=1.339]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|██▍                                                                                                                                                   | 35/2138 [05:30<5:26:12,  9.31s/it, loss=0.803]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|██▌                                                                                                                                                   | 36/2138 [05:39<5:27:33,  9.35s/it, loss=0.514]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|██▌                                                                                                                                                   | 37/2138 [05:49<5:29:58,  9.42s/it, loss=0.708]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   2%|██▋                                                                                                                                                   | 38/2138 [06:03<5:33:36,  9.53s/it, loss=0.617]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|██▋                                                                                                                                                   | 39/2138 [06:13<5:31:42,  9.48s/it, loss=0.717]
+torch.Size([4, 1])
+
+Processing Epoch 00:   2%|██▊                                                                                                                                                   | 40/2138 [06:17<5:32:56,  9.52s/it, loss=0.717]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|██▉                                                                                                                                                   | 41/2138 [06:27<5:31:06,  9.47s/it, loss=0.681]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   2%|██▉                                                                                                                                                   | 42/2138 [06:42<5:32:37,  9.52s/it, loss=0.826]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|███                                                                                                                                                   | 43/2138 [06:51<5:33:28,  9.55s/it, loss=0.443]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|███                                                                                                                                                   | 44/2138 [07:01<5:32:38,  9.53s/it, loss=0.750]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|███▏                                                                                                                                                  | 45/2138 [07:11<5:42:40,  9.82s/it, loss=0.753]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|███▏                                                                                                                                                  | 46/2138 [07:21<5:42:42,  9.83s/it, loss=0.701]
+torch.Size([4, 1])
+
+Processing Epoch 00:   2%|███▎                                                                                                                                                  | 47/2138 [07:26<5:47:07,  9.96s/it, loss=0.701]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|███▎                                                                                                                                                  | 48/2138 [07:37<5:56:26, 10.23s/it, loss=0.610]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|███▍                                                                                                                                                  | 49/2138 [07:47<5:57:53, 10.28s/it, loss=0.561]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   2%|███▌                                                                                                                                                  | 50/2138 [08:04<6:02:09, 10.41s/it, loss=0.776]
+torch.Size([4, 1])
+
+Processing Epoch 00:   2%|███▌                                                                                                                                                  | 51/2138 [08:09<6:07:50, 10.58s/it, loss=0.776]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   2%|███▋                                                                                                                                                  | 52/2138 [08:20<6:07:01, 10.56s/it, loss=0.779]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   2%|███▋                                                                                                                                                  | 53/2138 [08:36<6:07:22, 10.57s/it, loss=0.731]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|███▊                                                                                                                                                  | 54/2138 [08:46<6:04:57, 10.51s/it, loss=0.819]
+torch.Size([4, 1])
+
+Processing Epoch 00:   3%|███▊                                                                                                                                                  | 55/2138 [08:51<6:03:01, 10.46s/it, loss=0.819]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|███▉                                                                                                                                                  | 56/2138 [09:02<6:05:20, 10.53s/it, loss=0.903]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|███▉                                                                                                                                                  | 57/2138 [09:12<6:04:07, 10.50s/it, loss=0.616]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   3%|████                                                                                                                                                  | 58/2138 [09:28<6:03:41, 10.49s/it, loss=0.926]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|████▏                                                                                                                                                 | 59/2138 [09:38<6:04:16, 10.51s/it, loss=0.739]
+torch.Size([4, 1])
+
+Processing Epoch 00:   3%|████▏                                                                                                                                                 | 60/2138 [09:43<6:01:23, 10.43s/it, loss=0.739]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|████▎                                                                                                                                                 | 61/2138 [09:53<5:58:58, 10.37s/it, loss=0.794]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|████▎                                                                                                                                                 | 62/2138 [10:04<6:01:33, 10.45s/it, loss=0.729]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   3%|████▍                                                                                                                                                 | 63/2138 [10:20<6:02:27, 10.48s/it, loss=0.656]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|████▍                                                                                                                                                 | 64/2138 [10:30<6:01:27, 10.46s/it, loss=0.701]
+torch.Size([4, 1])
+
+Processing Epoch 00:   3%|████▌                                                                                                                                                 | 65/2138 [10:35<5:58:50, 10.39s/it, loss=0.701]
+torch.Size([4, 1])
+tensor([1, 1, 1, 1]) tensor([1, 1, 1, 1])
+torch.Size([4, 1])
+tensor([0, 0, 0, 0]) tensor([1, 1, 1, 1])
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|████▊                                                                                                                                                 | 68/2138 [11:06<5:58:31, 10.39s/it, loss=0.695]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|████▊                                                                                                                                                 | 69/2138 [11:16<5:55:50, 10.32s/it, loss=0.977]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|████▉                                                                                                                                                 | 70/2138 [11:27<5:53:34, 10.26s/it, loss=0.731]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   3%|████▉                                                                                                                                                 | 71/2138 [11:42<5:53:42, 10.27s/it, loss=0.414]
+torch.Size([4, 1])
+
+Processing Epoch 00:   3%|█████                                                                                                                                                 | 72/2138 [11:47<5:53:35, 10.27s/it, loss=0.414]
+torch.Size([4, 1])
+
+
+
+
+Processing Epoch 00:   3%|█████                                                                                                                                                 | 73/2138 [12:03<5:52:30, 10.24s/it, loss=0.699]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   3%|█████▏                                                                                                                                                | 74/2138 [12:13<5:51:58, 10.23s/it, loss=0.644]
+torch.Size([4, 1])
+
+Processing Epoch 00:   4%|█████▎                                                                                                                                                | 75/2138 [12:18<5:55:12, 10.33s/it, loss=0.644]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|█████▎                                                                                                                                                | 76/2138 [12:29<5:55:31, 10.34s/it, loss=0.659]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|█████▍                                                                                                                                                | 77/2138 [12:39<5:53:46, 10.30s/it, loss=0.749]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|█████▍                                                                                                                                                | 78/2138 [12:49<5:52:48, 10.28s/it, loss=0.967]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|█████▌                                                                                                                                                | 79/2138 [12:59<5:51:39, 10.25s/it, loss=0.578]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|█████▌                                                                                                                                                | 80/2138 [13:09<5:50:46, 10.23s/it, loss=1.189]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   4%|█████▋                                                                                                                                                | 81/2138 [13:25<5:52:34, 10.28s/it, loss=0.723]
+torch.Size([4, 1])
+
+Processing Epoch 00:   4%|█████▊                                                                                                                                                | 82/2138 [13:30<5:53:49, 10.33s/it, loss=0.723]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|█████▊                                                                                                                                                | 83/2138 [13:41<5:56:06, 10.40s/it, loss=0.608]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   4%|█████▉                                                                                                                                                | 84/2138 [13:57<6:00:01, 10.52s/it, loss=0.728]
+torch.Size([4, 1])
+
+Processing Epoch 00:   4%|█████▉                                                                                                                                                | 85/2138 [14:02<6:01:02, 10.55s/it, loss=0.728]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|██████                                                                                                                                                | 86/2138 [14:13<6:00:58, 10.55s/it, loss=0.703]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|██████                                                                                                                                                | 87/2138 [14:23<6:02:22, 10.60s/it, loss=0.570]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   4%|██████▏                                                                                                                                               | 88/2138 [14:40<6:02:10, 10.60s/it, loss=1.072]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|██████▏                                                                                                                                               | 89/2138 [14:51<6:04:14, 10.67s/it, loss=1.061]
+torch.Size([4, 1])
+
+Processing Epoch 00:   4%|██████▎                                                                                                                                               | 90/2138 [14:57<6:15:22, 11.00s/it, loss=1.061]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|██████▍                                                                                                                                               | 91/2138 [15:07<6:14:23, 10.97s/it, loss=0.692]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   4%|██████▍                                                                                                                                               | 92/2138 [15:23<6:09:52, 10.85s/it, loss=0.579]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|██████▌                                                                                                                                               | 93/2138 [15:34<6:04:14, 10.69s/it, loss=1.487]
+torch.Size([4, 1])
+
+Processing Epoch 00:   4%|██████▌                                                                                                                                               | 94/2138 [15:39<6:04:17, 10.69s/it, loss=1.487]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   4%|██████▋                                                                                                                                               | 95/2138 [15:50<6:04:30, 10.70s/it, loss=0.457]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   4%|██████▋                                                                                                                                               | 96/2138 [16:06<6:02:21, 10.65s/it, loss=1.002]
+torch.Size([4, 1])
+
+Processing Epoch 00:   5%|██████▊                                                                                                                                               | 97/2138 [16:11<5:59:35, 10.57s/it, loss=1.002]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   5%|██████▉                                                                                                                                               | 98/2138 [16:28<6:06:39, 10.78s/it, loss=0.631]
+torch.Size([4, 1])
+
+Processing Epoch 00:   5%|██████▉                                                                                                                                               | 99/2138 [16:33<6:07:27, 10.81s/it, loss=0.631]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|██████▉                                                                                                                                              | 100/2138 [16:44<6:06:03, 10.78s/it, loss=0.714]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   5%|███████                                                                                                                                              | 101/2138 [17:00<6:06:07, 10.78s/it, loss=0.743]
+torch.Size([4, 1])
+
+Processing Epoch 00:   5%|███████                                                                                                                                              | 102/2138 [17:05<6:05:36, 10.77s/it, loss=0.743]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|███████▏                                                                                                                                             | 103/2138 [17:16<6:04:38, 10.75s/it, loss=0.678]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|███████▏                                                                                                                                             | 104/2138 [17:26<5:56:57, 10.53s/it, loss=0.616]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|███████▎                                                                                                                                             | 105/2138 [17:36<5:57:50, 10.56s/it, loss=0.875]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   5%|███████▍                                                                                                                                             | 106/2138 [17:50<5:44:06, 10.16s/it, loss=0.899]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|███████▍                                                                                                                                             | 107/2138 [17:58<5:24:29,  9.59s/it, loss=0.509]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|███████▌                                                                                                                                             | 108/2138 [18:07<5:12:41,  9.24s/it, loss=0.786]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|███████▌                                                                                                                                             | 109/2138 [18:15<5:00:44,  8.89s/it, loss=0.768]
+torch.Size([4, 1])
+
+Processing Epoch 00:   5%|███████▋                                                                                                                                             | 110/2138 [18:19<4:59:01,  8.85s/it, loss=0.768]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   5%|███████▋                                                                                                                                             | 111/2138 [18:33<4:57:55,  8.82s/it, loss=0.653]
+torch.Size([4, 1])
+
+Processing Epoch 00:   5%|███████▊                                                                                                                                             | 112/2138 [18:37<4:55:52,  8.76s/it, loss=0.653]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|███████▉                                                                                                                                             | 113/2138 [18:45<4:54:43,  8.73s/it, loss=0.718]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|███████▉                                                                                                                                             | 114/2138 [18:54<4:59:34,  8.88s/it, loss=0.668]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|████████                                                                                                                                             | 115/2138 [19:03<5:00:17,  8.91s/it, loss=0.276]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|████████                                                                                                                                             | 116/2138 [19:13<5:06:06,  9.08s/it, loss=0.736]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   5%|████████▏                                                                                                                                            | 117/2138 [19:22<5:02:29,  8.98s/it, loss=0.520]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   6%|████████▏                                                                                                                                            | 118/2138 [19:35<5:01:21,  8.95s/it, loss=0.734]
+torch.Size([4, 1])
+
+Processing Epoch 00:   6%|████████▎                                                                                                                                            | 119/2138 [19:39<4:57:09,  8.83s/it, loss=0.734]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   6%|████████▎                                                                                                                                            | 120/2138 [19:53<5:03:44,  9.03s/it, loss=0.726]
+torch.Size([4, 1])
+
+Processing Epoch 00:   6%|████████▍                                                                                                                                            | 121/2138 [19:57<5:00:36,  8.94s/it, loss=0.726]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   6%|████████▌                                                                                                                                            | 122/2138 [20:06<4:56:17,  8.82s/it, loss=0.739]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   6%|████████▌                                                                                                                                            | 123/2138 [20:19<4:52:48,  8.72s/it, loss=0.691]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   6%|████████▋                                                                                                                                            | 124/2138 [20:27<4:51:02,  8.67s/it, loss=0.672]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   6%|████████▋                                                                                                                                            | 125/2138 [20:37<4:53:05,  8.74s/it, loss=0.632]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   6%|████████▊                                                                                                                                            | 126/2138 [20:46<4:59:34,  8.93s/it, loss=0.400]
+torch.Size([4, 1])
+
+Processing Epoch 00:   6%|████████▊                                                                                                                                            | 127/2138 [20:49<4:51:23,  8.69s/it, loss=0.400]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   6%|████████▉                                                                                                                                            | 128/2138 [20:59<5:02:55,  9.04s/it, loss=0.814]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   6%|████████▉                                                                                                                                            | 129/2138 [21:13<5:03:20,  9.06s/it, loss=0.705]
+torch.Size([4, 1])
+
+Processing Epoch 00:   6%|█████████                                                                                                                                            | 130/2138 [21:18<5:10:53,  9.29s/it, loss=0.705]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   6%|█████████▏                                                                                                                                           | 131/2138 [21:28<5:12:59,  9.36s/it, loss=0.698]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   6%|█████████▏                                                                                                                                           | 132/2138 [21:42<5:14:30,  9.41s/it, loss=0.813]
+torch.Size([4, 1])
+
+Processing Epoch 00:   6%|█████████▎                                                                                                                                           | 133/2138 [21:46<5:08:10,  9.22s/it, loss=0.813]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   6%|█████████▎                                                                                                                                           | 134/2138 [21:59<5:03:13,  9.08s/it, loss=0.709]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   6%|█████████▍                                                                                                                                           | 135/2138 [22:10<5:06:00,  9.17s/it, loss=0.696]
+torch.Size([4, 1])
+
+Processing Epoch 00:   6%|█████████▍                                                                                                                                           | 136/2138 [22:14<5:17:53,  9.53s/it, loss=0.696]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   6%|█████████▌                                                                                                                                           | 137/2138 [22:29<5:13:50,  9.41s/it, loss=1.046]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   6%|█████████▌                                                                                                                                           | 138/2138 [22:38<5:11:06,  9.33s/it, loss=0.598]
+torch.Size([4, 1])
+
+Processing Epoch 00:   7%|█████████▋                                                                                                                                           | 139/2138 [22:42<5:10:39,  9.32s/it, loss=0.598]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   7%|█████████▊                                                                                                                                           | 140/2138 [22:51<5:04:36,  9.15s/it, loss=1.253]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   7%|█████████▊                                                                                                                                           | 141/2138 [23:04<5:01:52,  9.07s/it, loss=0.720]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   7%|█████████▉                                                                                                                                           | 142/2138 [23:13<4:55:33,  8.88s/it, loss=0.839]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   7%|█████████▉                                                                                                                                           | 143/2138 [23:22<4:52:48,  8.81s/it, loss=0.713]
+torch.Size([4, 1])
+
+Processing Epoch 00:   7%|██████████                                                                                                                                           | 144/2138 [23:26<5:00:30,  9.04s/it, loss=0.713]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   7%|██████████                                                                                                                                           | 145/2138 [23:36<5:04:54,  9.18s/it, loss=0.610]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   7%|██████████▏                                                                                                                                          | 146/2138 [23:45<5:09:19,  9.32s/it, loss=0.832]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   7%|██████████▏                                                                                                                                          | 147/2138 [24:00<5:15:25,  9.51s/it, loss=0.695]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   7%|██████████▎                                                                                                                                          | 148/2138 [24:09<5:06:31,  9.24s/it, loss=0.806]
+torch.Size([4, 1])
+
+Processing Epoch 00:   7%|██████████▍                                                                                                                                          | 149/2138 [24:13<4:59:50,  9.05s/it, loss=0.806]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   7%|██████████▍                                                                                                                                          | 150/2138 [24:26<4:55:35,  8.92s/it, loss=0.728]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   7%|██████████▌                                                                                                                                          | 151/2138 [24:35<4:50:37,  8.78s/it, loss=0.663]
+torch.Size([4, 1])
+
+Processing Epoch 00:   7%|██████████▌                                                                                                                                          | 152/2138 [24:39<4:56:28,  8.96s/it, loss=0.663]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   7%|██████████▋                                                                                                                                          | 153/2138 [24:52<4:53:01,  8.86s/it, loss=0.473]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   7%|██████████▋                                                                                                                                          | 154/2138 [25:01<4:48:59,  8.74s/it, loss=0.625]
+torch.Size([4, 1])
+
+Processing Epoch 00:   7%|██████████▊                                                                                                                                          | 155/2138 [25:05<4:54:38,  8.92s/it, loss=0.625]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   7%|██████████▊                                                                                                                                          | 156/2138 [25:19<4:53:37,  8.89s/it, loss=0.940]
+torch.Size([4, 1])
+
+Processing Epoch 00:   7%|██████████▉                                                                                                                                          | 157/2138 [25:23<4:49:37,  8.77s/it, loss=0.940]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   7%|███████████                                                                                                                                          | 158/2138 [25:37<4:55:32,  8.96s/it, loss=0.897]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   7%|███████████                                                                                                                                          | 159/2138 [25:45<4:51:37,  8.84s/it, loss=0.767]
+torch.Size([4, 1])
+
+Processing Epoch 00:   7%|███████████▏                                                                                                                                         | 160/2138 [25:49<4:49:42,  8.79s/it, loss=0.767]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|███████████▏                                                                                                                                         | 161/2138 [25:58<4:43:43,  8.61s/it, loss=0.702]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|███████████▎                                                                                                                                         | 162/2138 [26:06<4:41:31,  8.55s/it, loss=0.777]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   8%|███████████▎                                                                                                                                         | 163/2138 [26:19<4:38:20,  8.46s/it, loss=0.753]
+torch.Size([4, 1])
+
+Processing Epoch 00:   8%|███████████▍                                                                                                                                         | 164/2138 [26:23<4:36:57,  8.42s/it, loss=0.753]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|███████████▍                                                                                                                                         | 165/2138 [26:33<4:52:13,  8.89s/it, loss=0.707]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|███████████▌                                                                                                                                         | 166/2138 [26:43<5:09:17,  9.41s/it, loss=0.603]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   8%|███████████▋                                                                                                                                         | 167/2138 [26:57<5:04:05,  9.26s/it, loss=0.792]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|███████████▋                                                                                                                                         | 168/2138 [27:05<4:56:49,  9.04s/it, loss=0.673]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|███████████▊                                                                                                                                         | 169/2138 [27:14<4:50:49,  8.86s/it, loss=0.789]
+torch.Size([4, 1])
+
+Processing Epoch 00:   8%|███████████▊                                                                                                                                         | 170/2138 [27:18<4:46:31,  8.74s/it, loss=0.789]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|███████████▉                                                                                                                                         | 171/2138 [27:26<4:48:17,  8.79s/it, loss=0.710]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   8%|███████████▉                                                                                                                                         | 172/2138 [27:40<4:47:27,  8.77s/it, loss=0.654]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|████████████                                                                                                                                         | 173/2138 [27:51<4:55:07,  9.01s/it, loss=0.693]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|████████████▏                                                                                                                                        | 174/2138 [28:02<5:18:18,  9.72s/it, loss=0.346]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|████████████▏                                                                                                                                        | 175/2138 [28:12<5:24:36,  9.92s/it, loss=0.604]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|████████████▎                                                                                                                                        | 176/2138 [28:22<5:26:52, 10.00s/it, loss=0.851]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|████████████▎                                                                                                                                        | 177/2138 [28:32<5:28:05, 10.04s/it, loss=0.696]
+torch.Size([4, 1])
+
+Processing Epoch 00:   8%|████████████▍                                                                                                                                        | 178/2138 [28:37<5:31:02, 10.13s/it, loss=0.696]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   8%|████████████▍                                                                                                                                        | 179/2138 [28:53<5:36:32, 10.31s/it, loss=0.607]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   8%|████████████▌                                                                                                                                        | 180/2138 [29:04<5:37:17, 10.34s/it, loss=0.626]
+torch.Size([4, 1])
+
+Processing Epoch 00:   8%|████████████▌                                                                                                                                        | 181/2138 [29:09<5:40:04, 10.43s/it, loss=0.626]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:   9%|████████████▋                                                                                                                                        | 182/2138 [29:25<5:44:54, 10.58s/it, loss=0.975]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|████████████▊                                                                                                                                        | 183/2138 [29:35<5:40:27, 10.45s/it, loss=1.023]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|████████████▊                                                                                                                                        | 184/2138 [29:46<5:37:38, 10.37s/it, loss=0.491]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|████████████▉                                                                                                                                        | 185/2138 [29:56<5:35:57, 10.32s/it, loss=0.727]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|████████████▉                                                                                                                                        | 186/2138 [30:06<5:33:29, 10.25s/it, loss=0.699]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████                                                                                                                                        | 187/2138 [30:16<5:31:39, 10.20s/it, loss=0.546]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████                                                                                                                                        | 188/2138 [30:26<5:31:22, 10.20s/it, loss=0.719]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▏                                                                                                                                       | 189/2138 [30:36<5:27:21, 10.08s/it, loss=0.410]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▏                                                                                                                                       | 190/2138 [30:47<5:27:44, 10.09s/it, loss=0.632]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▎                                                                                                                                       | 191/2138 [30:57<5:36:05, 10.36s/it, loss=0.699]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▍                                                                                                                                       | 192/2138 [31:07<5:33:55, 10.30s/it, loss=0.690]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▍                                                                                                                                       | 193/2138 [31:17<5:30:04, 10.18s/it, loss=0.896]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▌                                                                                                                                       | 194/2138 [31:27<5:27:04, 10.09s/it, loss=0.680]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▌                                                                                                                                       | 195/2138 [31:37<5:27:55, 10.13s/it, loss=0.713]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▋                                                                                                                                       | 196/2138 [31:47<5:25:33, 10.06s/it, loss=0.789]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▋                                                                                                                                       | 197/2138 [31:58<5:23:46, 10.01s/it, loss=0.691]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▊                                                                                                                                       | 198/2138 [32:08<5:30:22, 10.22s/it, loss=0.758]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▊                                                                                                                                       | 199/2138 [32:17<5:26:29, 10.10s/it, loss=0.824]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|█████████████▉                                                                                                                                       | 200/2138 [32:27<5:20:57,  9.94s/it, loss=0.597]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|██████████████                                                                                                                                       | 201/2138 [32:37<5:19:54,  9.91s/it, loss=0.732]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|██████████████                                                                                                                                       | 202/2138 [32:47<5:20:39,  9.94s/it, loss=0.599]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:   9%|██████████████▏                                                                                                                                      | 203/2138 [32:57<5:18:14,  9.87s/it, loss=0.676]
+torch.Size([4, 1])
+
+Processing Epoch 00:  10%|██████████████▏                                                                                                                                      | 204/2138 [33:01<5:19:11,  9.90s/it, loss=0.676]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:  10%|██████████████▎                                                                                                                                      | 205/2138 [33:11<5:18:20,  9.88s/it, loss=0.365]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:  10%|██████████████▎                                                                                                                                      | 206/2138 [33:21<5:18:06,  9.88s/it, loss=0.642]
+torch.Size([4, 1])
+
+
+
+Processing Epoch 00:  10%|██████████████▍                                                                                                                                      | 207/2138 [33:36<5:19:59,  9.94s/it, loss=1.017]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:  10%|██████████████▍                                                                                                                                      | 208/2138 [33:47<5:21:25,  9.99s/it, loss=0.695]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:  10%|██████████████▌                                                                                                                                      | 209/2138 [33:58<5:32:05, 10.33s/it, loss=0.417]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:  10%|██████████████▋                                                                                                                                      | 210/2138 [34:08<5:32:23, 10.34s/it, loss=0.675]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:  10%|██████████████▋                                                                                                                                      | 211/2138 [34:18<5:31:09, 10.31s/it, loss=0.588]
+torch.Size([4, 1])
+
+
+Processing Epoch 00:  10%|██████████████▊                                                                                                                                      | 212/2138 [34:27<5:26:46, 10.18s/it, loss=0.682]
+torch.Size([4, 1])
+Processing Epoch 00:  10%|██████████████▊                                                                                                                                      | 212/2138 [34:31<5:13:39,  9.77s/it, loss=0.682]
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer2\longformerIMDB\train.py", line 164, in <module>
+    train_model(config)
+  File "c:\Shaurya\Longformer2\longformerIMDB\train.py", line 145, in train_model
+    loss.backward()
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
