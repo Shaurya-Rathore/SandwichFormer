@@ -1,0 +1,199 @@
+2024-03-24 17:52:54,469 INFO    StreamThr :22028 [internal.py:wandb_internal():86] W&B internal server running at pid: 22028, started at: 2024-03-24 17:52:54.469790
+2024-03-24 17:52:54,473 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: status
+2024-03-24 17:52:54,476 INFO    WriterThread:22028 [datastore.py:open_for_write():87] open: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\run-8yp8xxaf.wandb
+2024-03-24 17:52:54,477 DEBUG   SenderThread:22028 [sender.py:send():378] send: header
+2024-03-24 17:52:54,548 DEBUG   SenderThread:22028 [sender.py:send():378] send: run
+2024-03-24 17:52:55,598 INFO    SenderThread:22028 [dir_watcher.py:__init__():211] watching files in: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files
+2024-03-24 17:52:55,599 INFO    SenderThread:22028 [sender.py:_start_run_threads():1099] run started: 8yp8xxaf with start time 1711282974.470789
+2024-03-24 17:52:55,631 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: check_version
+2024-03-24 17:52:55,632 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: check_version
+2024-03-24 17:52:55,995 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: run_start
+2024-03-24 17:52:57,309 DEBUG   HandlerThread:22028 [system_info.py:__init__():26] System info init
+2024-03-24 17:52:57,309 DEBUG   HandlerThread:22028 [system_info.py:__init__():41] System info init done
+2024-03-24 17:52:57,309 INFO    HandlerThread:22028 [system_monitor.py:start():194] Starting system monitor
+2024-03-24 17:52:57,310 INFO    SystemMonitor:22028 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-24 17:52:57,310 INFO    HandlerThread:22028 [system_monitor.py:probe():214] Collecting system info
+2024-03-24 17:52:57,316 INFO    SystemMonitor:22028 [interfaces.py:start():190] Started cpu monitoring
+2024-03-24 17:52:57,316 INFO    SystemMonitor:22028 [interfaces.py:start():190] Started disk monitoring
+2024-03-24 17:52:57,317 INFO    SystemMonitor:22028 [interfaces.py:start():190] Started gpu monitoring
+2024-03-24 17:52:57,326 INFO    SystemMonitor:22028 [interfaces.py:start():190] Started memory monitoring
+2024-03-24 17:52:57,332 DEBUG   HandlerThread:22028 [system_info.py:probe():150] Probing system
+2024-03-24 17:52:57,343 INFO    SystemMonitor:22028 [interfaces.py:start():190] Started network monitoring
+2024-03-24 17:52:57,345 DEBUG   HandlerThread:22028 [system_info.py:_probe_git():135] Probing git
+2024-03-24 17:52:57,477 DEBUG   HandlerThread:22028 [system_info.py:_probe_git():143] Probing git done
+2024-03-24 17:52:57,477 DEBUG   HandlerThread:22028 [system_info.py:probe():198] Probing system done
+2024-03-24 17:52:57,477 DEBUG   HandlerThread:22028 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-03-24T12:22:57.332739', 'startedAt': '2024-03-24T12:22:54.422261', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Shaurya\\Longformer2\\LongformerCoLA\\train.py', 'codePathLocal': 'LongformerCoLA\\train.py', 'codePath': 'LongformerCoLA\\train.py', 'git': {'remote': 'https://github.com/Wackyjac/mrmlongformer2.git', 'commit': 'e92ac09c447e49b6b78757895c9994ee83e70f59'}, 'email': '140714862+Wackyjac@users.noreply.github.com', 'root': 'C:/Shaurya/Longformer2', 'host': 'MSI', 'username': 'Shaurya', 'executable': 'C:\\Users\\Shaurya\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2304.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 2304.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'/': {'total': 456.09569931030273, 'used': 359.54532623291016}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.708507537841797}}
+2024-03-24 17:52:57,477 INFO    HandlerThread:22028 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-24 17:52:57,477 INFO    HandlerThread:22028 [system_monitor.py:probe():227] Publishing system info
+2024-03-24 17:52:57,479 INFO    HandlerThread:22028 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-24 17:52:57,501 DEBUG   SenderThread:22028 [sender.py:send():378] send: files
+2024-03-24 17:52:57,501 INFO    SenderThread:22028 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-24 17:52:57,627 INFO    Thread-16 :22028 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\wandb-metadata.json
+2024-03-24 17:52:57,637 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-24 17:52:57,637 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: python_packages
+2024-03-24 17:52:57,638 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-24 17:52:57,639 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: stop_status
+2024-03-24 17:52:57,639 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-24 17:52:58,112 DEBUG   SenderThread:22028 [sender.py:send():378] send: telemetry
+2024-03-24 17:52:58,631 INFO    Thread-16 :22028 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\requirements.txt
+2024-03-24 17:52:58,821 INFO    wandb-upload_0:22028 [upload_job.py:push():131] Uploaded file C:\Users\Shaurya\AppData\Local\Temp\tmply0_1p0swandb\bnin73uy-wandb-metadata.json
+2024-03-24 17:53:00,121 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 17:53:05,162 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 17:53:10,198 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 17:53:12,632 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-24 17:53:12,633 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: stop_status
+2024-03-24 17:53:12,646 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-24 17:53:16,016 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 17:53:21,052 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 17:53:26,074 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 17:53:26,821 INFO    Thread-16 :22028 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\config.yaml
+2024-03-24 17:53:27,659 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-24 17:53:27,659 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-24 17:53:27,660 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: stop_status
+2024-03-24 17:53:32,172 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 17:53:35,478 DEBUG   SenderThread:22028 [sender.py:send():378] send: exit
+2024-03-24 17:53:35,479 INFO    SenderThread:22028 [sender.py:send_exit():585] handling exit code: 1
+2024-03-24 17:53:35,479 INFO    SenderThread:22028 [sender.py:send_exit():587] handling runtime: 39
+2024-03-24 17:53:35,483 INFO    SenderThread:22028 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-24 17:53:35,484 INFO    SenderThread:22028 [sender.py:send_exit():593] send defer
+2024-03-24 17:53:35,484 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:35,484 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-24 17:53:35,485 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:35,485 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-24 17:53:35,485 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 1
+2024-03-24 17:53:35,485 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:35,485 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-24 17:53:35,486 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:35,486 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-24 17:53:35,486 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 2
+2024-03-24 17:53:35,486 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:35,486 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-24 17:53:35,486 INFO    HandlerThread:22028 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-24 17:53:35,487 DEBUG   SystemMonitor:22028 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-24 17:53:35,487 DEBUG   SystemMonitor:22028 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-24 17:53:35,487 DEBUG   SystemMonitor:22028 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-24 17:53:35,488 INFO    HandlerThread:22028 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-24 17:53:35,502 INFO    HandlerThread:22028 [interfaces.py:finish():202] Joined disk monitor
+2024-03-24 17:53:35,882 INFO    Thread-16 :22028 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\output.log
+2024-03-24 17:53:35,883 INFO    Thread-16 :22028 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\wandb-summary.json
+2024-03-24 17:53:36,677 INFO    HandlerThread:22028 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-24 17:53:36,678 INFO    HandlerThread:22028 [interfaces.py:finish():202] Joined memory monitor
+2024-03-24 17:53:36,679 INFO    HandlerThread:22028 [interfaces.py:finish():202] Joined network monitor
+2024-03-24 17:53:36,679 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 17:53:36,680 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:36,680 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-24 17:53:36,680 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 3
+2024-03-24 17:53:36,680 DEBUG   SenderThread:22028 [sender.py:send():378] send: stats
+2024-03-24 17:53:36,681 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:36,681 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-24 17:53:36,681 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 17:53:36,682 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:36,682 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-24 17:53:36,682 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 4
+2024-03-24 17:53:36,683 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:36,683 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-24 17:53:36,683 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:36,684 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-24 17:53:36,684 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 5
+2024-03-24 17:53:36,684 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:36,684 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-24 17:53:36,684 DEBUG   SenderThread:22028 [sender.py:send():378] send: summary
+2024-03-24 17:53:36,686 INFO    SenderThread:22028 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-24 17:53:36,686 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:36,686 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-24 17:53:36,686 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 6
+2024-03-24 17:53:36,686 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:36,686 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-24 17:53:36,687 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:36,687 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-24 17:53:36,687 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 7
+2024-03-24 17:53:36,687 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 17:53:36,687 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:36,687 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-24 17:53:36,688 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:36,688 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-24 17:53:36,896 INFO    Thread-16 :22028 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\wandb-summary.json
+2024-03-24 17:53:37,496 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 17:53:37,504 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 8
+2024-03-24 17:53:37,505 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 17:53:37,506 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:37,506 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-24 17:53:37,506 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:37,506 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-24 17:53:37,507 INFO    SenderThread:22028 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-24 17:53:37,507 INFO    SenderThread:22028 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-24 17:53:37,569 INFO    SenderThread:22028 [job_builder.py:build():404] adding wandb-job metadata file
+2024-03-24 17:53:37,581 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 9
+2024-03-24 17:53:37,582 DEBUG   SenderThread:22028 [sender.py:send():378] send: artifact
+2024-03-24 17:53:37,582 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:37,583 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-24 17:53:37,899 INFO    Thread-16 :22028 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\output.log
+2024-03-24 17:53:38,525 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 17:53:39,413 INFO    SenderThread:22028 [sender.py:send_artifact():1443] sent artifact job-https___github.com_Wackyjac_mrmlongformer2.git_LongformerCoLA_train.py - {'id': 'QXJ0aWZhY3Q6NzY4Nzc2Njg1', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NzcyOTg4Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzY4Nzg5OTkx', 'versionIndex': 2}}}
+2024-03-24 17:53:39,413 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:39,413 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-24 17:53:39,413 INFO    SenderThread:22028 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-24 17:53:39,913 INFO    SenderThread:22028 [dir_watcher.py:finish():388] scan: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files
+2024-03-24 17:53:39,915 INFO    SenderThread:22028 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\config.yaml config.yaml
+2024-03-24 17:53:39,916 INFO    SenderThread:22028 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\output.log output.log
+2024-03-24 17:53:39,921 INFO    SenderThread:22028 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\requirements.txt requirements.txt
+2024-03-24 17:53:39,925 INFO    SenderThread:22028 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\wandb-metadata.json wandb-metadata.json
+2024-03-24 17:53:39,925 INFO    SenderThread:22028 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\wandb-summary.json wandb-summary.json
+2024-03-24 17:53:39,927 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 10
+2024-03-24 17:53:39,928 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 17:53:39,928 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:39,928 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-24 17:53:39,928 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:39,928 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-24 17:53:39,928 INFO    SenderThread:22028 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-24 17:53:40,535 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 17:53:40,536 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 17:53:40,740 INFO    wandb-upload_0:22028 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\config.yaml
+2024-03-24 17:53:40,863 INFO    wandb-upload_1:22028 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\output.log
+2024-03-24 17:53:40,877 INFO    wandb-upload_2:22028 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\requirements.txt
+2024-03-24 17:53:40,893 INFO    wandb-upload_3:22028 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\files\wandb-summary.json
+2024-03-24 17:53:41,097 INFO    Thread-15 :22028 [sender.py:transition_state():613] send defer: 11
+2024-03-24 17:53:41,098 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:41,098 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-24 17:53:41,098 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:41,098 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-24 17:53:41,099 INFO    SenderThread:22028 [file_pusher.py:join():178] waiting for file pusher
+2024-03-24 17:53:41,099 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 12
+2024-03-24 17:53:41,100 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:41,100 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-24 17:53:41,100 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:41,100 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-24 17:53:41,100 INFO    SenderThread:22028 [file_stream.py:finish():595] file stream finish called
+2024-03-24 17:53:41,457 INFO    SenderThread:22028 [file_stream.py:finish():599] file stream finish is done
+2024-03-24 17:53:41,457 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 13
+2024-03-24 17:53:41,457 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:41,457 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-24 17:53:41,457 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:41,457 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-24 17:53:41,457 INFO    SenderThread:22028 [sender.py:transition_state():613] send defer: 14
+2024-03-24 17:53:41,457 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 17:53:41,457 INFO    HandlerThread:22028 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-24 17:53:41,458 DEBUG   SenderThread:22028 [sender.py:send():378] send: final
+2024-03-24 17:53:41,458 DEBUG   SenderThread:22028 [sender.py:send():378] send: footer
+2024-03-24 17:53:41,458 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: defer
+2024-03-24 17:53:41,458 INFO    SenderThread:22028 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-24 17:53:41,459 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 17:53:41,459 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 17:53:41,459 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: server_info
+2024-03-24 17:53:41,459 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-24 17:53:41,460 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-24 17:53:41,460 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-24 17:53:41,460 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 17:53:41,460 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 17:53:41,461 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: server_info
+2024-03-24 17:53:41,462 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: job_info
+2024-03-24 17:53:41,745 DEBUG   SenderThread:22028 [sender.py:send_request():405] send_request: job_info
+2024-03-24 17:53:41,745 INFO    MainThread:22028 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-24 17:53:41,747 INFO    MainThread:22028 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-24 17:53:41,747 INFO    MainThread:22028 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-24 17:53:41,750 DEBUG   HandlerThread:22028 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-24 17:53:41,751 INFO    HandlerThread:22028 [handler.py:finish():869] shutting down handler
+2024-03-24 17:53:42,470 INFO    WriterThread:22028 [datastore.py:close():296] close: C:\Shaurya\Longformer2\wandb\run-20240324_175254-8yp8xxaf\run-8yp8xxaf.wandb
+2024-03-24 17:53:42,752 INFO    SenderThread:22028 [sender.py:finish():1521] shutting down sender
+2024-03-24 17:53:42,753 INFO    SenderThread:22028 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-24 17:53:42,753 INFO    SenderThread:22028 [file_pusher.py:join():178] waiting for file pusher

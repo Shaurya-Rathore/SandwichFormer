@@ -1,0 +1,18 @@
+
+Max Length for sentence = 44
+Processing Epoch 00:   0%|                                                                                                                                                | 0/2138 [00:01<?, ?it/s, loss=0.892]
+torch.Size([4, 1])
+
+Processing Epoch 00:   0%|                                                                                                                                      | 1/2138 [00:05<2:22:10,  3.99s/it, loss=0.608]
+torch.Size([4, 1])
+Processing Epoch 00:   0%|                                                                                                                                      | 1/2138 [00:06<3:42:56,  6.26s/it, loss=0.608]
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer2\LongformerCoLA\train.py", line 156, in <module>
+    train_model(config)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\train.py", line 138, in train_model
+    loss.backward()
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

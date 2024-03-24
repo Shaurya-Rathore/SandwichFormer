@@ -1,0 +1,203 @@
+2024-03-24 18:27:54,885 INFO    StreamThr :444 [internal.py:wandb_internal():86] W&B internal server running at pid: 444, started at: 2024-03-24 18:27:54.884868
+2024-03-24 18:27:54,887 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: status
+2024-03-24 18:27:54,891 INFO    WriterThread:444 [datastore.py:open_for_write():87] open: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\run-8f4a3bad.wandb
+2024-03-24 18:27:54,892 DEBUG   SenderThread:444 [sender.py:send():378] send: header
+2024-03-24 18:27:54,944 DEBUG   SenderThread:444 [sender.py:send():378] send: run
+2024-03-24 18:27:55,720 INFO    SenderThread:444 [dir_watcher.py:__init__():211] watching files in: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files
+2024-03-24 18:27:55,720 INFO    SenderThread:444 [sender.py:_start_run_threads():1099] run started: 8f4a3bad with start time 1711285074.886881
+2024-03-24 18:27:55,730 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: check_version
+2024-03-24 18:27:55,731 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: check_version
+2024-03-24 18:27:55,882 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: run_start
+2024-03-24 18:27:57,110 DEBUG   HandlerThread:444 [system_info.py:__init__():26] System info init
+2024-03-24 18:27:57,110 DEBUG   HandlerThread:444 [system_info.py:__init__():41] System info init done
+2024-03-24 18:27:57,110 INFO    HandlerThread:444 [system_monitor.py:start():194] Starting system monitor
+2024-03-24 18:27:57,110 INFO    SystemMonitor:444 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-24 18:27:57,110 INFO    HandlerThread:444 [system_monitor.py:probe():214] Collecting system info
+2024-03-24 18:27:57,116 INFO    SystemMonitor:444 [interfaces.py:start():190] Started cpu monitoring
+2024-03-24 18:27:57,117 INFO    SystemMonitor:444 [interfaces.py:start():190] Started disk monitoring
+2024-03-24 18:27:57,117 INFO    SystemMonitor:444 [interfaces.py:start():190] Started gpu monitoring
+2024-03-24 18:27:57,126 INFO    SystemMonitor:444 [interfaces.py:start():190] Started memory monitoring
+2024-03-24 18:27:57,135 INFO    SystemMonitor:444 [interfaces.py:start():190] Started network monitoring
+2024-03-24 18:27:57,143 DEBUG   HandlerThread:444 [system_info.py:probe():150] Probing system
+2024-03-24 18:27:57,144 DEBUG   HandlerThread:444 [system_info.py:_probe_git():135] Probing git
+2024-03-24 18:27:57,235 DEBUG   HandlerThread:444 [system_info.py:_probe_git():143] Probing git done
+2024-03-24 18:27:57,235 DEBUG   HandlerThread:444 [system_info.py:probe():198] Probing system done
+2024-03-24 18:27:57,236 DEBUG   HandlerThread:444 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-03-24T12:57:57.143021', 'startedAt': '2024-03-24T12:57:54.866022', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Shaurya\\Longformer2\\LongformerCoLA\\train.py', 'codePathLocal': 'LongformerCoLA\\train.py', 'codePath': 'LongformerCoLA\\train.py', 'git': {'remote': 'https://github.com/Wackyjac/mrmlongformer2.git', 'commit': 'e92ac09c447e49b6b78757895c9994ee83e70f59'}, 'email': '140714862+Wackyjac@users.noreply.github.com', 'root': 'C:/Shaurya/Longformer2', 'host': 'MSI', 'username': 'Shaurya', 'executable': 'C:\\Users\\Shaurya\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2304.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 2304.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'/': {'total': 456.09569931030273, 'used': 359.77148818969727}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.708507537841797}}
+2024-03-24 18:27:57,236 INFO    HandlerThread:444 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-24 18:27:57,236 INFO    HandlerThread:444 [system_monitor.py:probe():227] Publishing system info
+2024-03-24 18:27:57,237 INFO    HandlerThread:444 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-24 18:27:57,251 DEBUG   SenderThread:444 [sender.py:send():378] send: files
+2024-03-24 18:27:57,251 INFO    SenderThread:444 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-24 18:27:57,316 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-24 18:27:57,318 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: python_packages
+2024-03-24 18:27:57,318 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-24 18:27:57,319 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-24 18:27:57,319 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: stop_status
+2024-03-24 18:27:57,743 INFO    Thread-16 :444 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\requirements.txt
+2024-03-24 18:27:57,744 INFO    Thread-16 :444 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\wandb-metadata.json
+2024-03-24 18:27:57,784 DEBUG   SenderThread:444 [sender.py:send():378] send: telemetry
+2024-03-24 18:27:58,413 INFO    wandb-upload_0:444 [upload_job.py:push():131] Uploaded file C:\Users\Shaurya\AppData\Local\Temp\tmpgp9t21llwandb\hy9gru9w-wandb-metadata.json
+2024-03-24 18:28:00,813 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 18:28:05,873 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 18:28:10,916 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 18:28:12,319 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-24 18:28:12,320 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-24 18:28:12,320 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: stop_status
+2024-03-24 18:28:16,740 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 18:28:21,776 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 18:28:26,823 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 18:28:27,342 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-24 18:28:27,342 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-24 18:28:27,343 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: stop_status
+2024-03-24 18:28:28,081 INFO    Thread-16 :444 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\config.yaml
+2024-03-24 18:28:28,082 INFO    Thread-16 :444 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\output.log
+2024-03-24 18:28:29,280 DEBUG   SenderThread:444 [sender.py:send():378] send: telemetry
+2024-03-24 18:28:29,464 DEBUG   SenderThread:444 [sender.py:send():378] send: exit
+2024-03-24 18:28:29,464 INFO    SenderThread:444 [sender.py:send_exit():585] handling exit code: 1
+2024-03-24 18:28:29,465 INFO    SenderThread:444 [sender.py:send_exit():587] handling runtime: 33
+2024-03-24 18:28:29,466 INFO    SenderThread:444 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-24 18:28:29,466 INFO    SenderThread:444 [sender.py:send_exit():593] send defer
+2024-03-24 18:28:29,466 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:29,466 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-24 18:28:29,466 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:29,466 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-24 18:28:29,466 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 1
+2024-03-24 18:28:29,466 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:29,468 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-24 18:28:29,468 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:29,468 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-24 18:28:29,468 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 2
+2024-03-24 18:28:29,468 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:29,468 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-24 18:28:29,468 INFO    HandlerThread:444 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-24 18:28:29,478 INFO    HandlerThread:444 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-24 18:28:29,478 DEBUG   SystemMonitor:444 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-24 18:28:29,478 INFO    HandlerThread:444 [interfaces.py:finish():202] Joined disk monitor
+2024-03-24 18:28:29,478 DEBUG   SystemMonitor:444 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-24 18:28:29,479 DEBUG   SystemMonitor:444 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-24 18:28:30,006 INFO    HandlerThread:444 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-24 18:28:30,007 INFO    HandlerThread:444 [interfaces.py:finish():202] Joined memory monitor
+2024-03-24 18:28:30,007 INFO    HandlerThread:444 [interfaces.py:finish():202] Joined network monitor
+2024-03-24 18:28:30,007 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:30,007 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-24 18:28:30,007 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 3
+2024-03-24 18:28:30,007 DEBUG   SenderThread:444 [sender.py:send():378] send: stats
+2024-03-24 18:28:30,008 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:30,008 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-24 18:28:30,008 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:30,008 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-24 18:28:30,008 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 4
+2024-03-24 18:28:30,008 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:30,008 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-24 18:28:30,009 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:30,009 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-24 18:28:30,009 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 5
+2024-03-24 18:28:30,009 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:30,009 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-24 18:28:30,009 DEBUG   SenderThread:444 [sender.py:send():378] send: summary
+2024-03-24 18:28:30,010 INFO    SenderThread:444 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-24 18:28:30,010 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:30,010 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-24 18:28:30,010 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 6
+2024-03-24 18:28:30,010 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:30,010 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-24 18:28:30,011 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:30,011 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-24 18:28:30,013 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: status_report
+2024-03-24 18:28:30,101 INFO    Thread-16 :444 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\output.log
+2024-03-24 18:28:30,101 INFO    Thread-16 :444 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\wandb-summary.json
+2024-03-24 18:28:30,336 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 7
+2024-03-24 18:28:30,337 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:30,337 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-24 18:28:30,337 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:30,337 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-24 18:28:30,476 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 18:28:31,116 INFO    Thread-16 :444 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\config.yaml
+2024-03-24 18:28:32,130 INFO    Thread-16 :444 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\output.log
+2024-03-24 18:28:33,461 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 8
+2024-03-24 18:28:33,462 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 18:28:33,462 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:33,462 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-24 18:28:33,463 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:33,463 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-24 18:28:33,463 INFO    SenderThread:444 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-24 18:28:33,463 INFO    SenderThread:444 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-24 18:28:33,504 INFO    SenderThread:444 [job_builder.py:build():404] adding wandb-job metadata file
+2024-03-24 18:28:33,505 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 18:28:33,512 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 9
+2024-03-24 18:28:33,512 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 18:28:33,512 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:33,512 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-24 18:28:33,512 DEBUG   SenderThread:444 [sender.py:send():378] send: artifact
+2024-03-24 18:28:34,159 INFO    Thread-16 :444 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\output.log
+2024-03-24 18:28:34,517 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 18:28:35,041 INFO    SenderThread:444 [sender.py:send_artifact():1443] sent artifact job-https___github.com_Wackyjac_mrmlongformer2.git_LongformerCoLA_train.py - {'id': 'QXJ0aWZhY3Q6NzY4Nzc2Njg1', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NzcyOTg4Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzY4Nzg5OTkx', 'versionIndex': 2}}}
+2024-03-24 18:28:35,041 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:35,041 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-24 18:28:35,041 INFO    SenderThread:444 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-24 18:28:35,173 INFO    SenderThread:444 [dir_watcher.py:finish():388] scan: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files
+2024-03-24 18:28:35,174 INFO    SenderThread:444 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\config.yaml config.yaml
+2024-03-24 18:28:35,175 INFO    SenderThread:444 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\output.log output.log
+2024-03-24 18:28:35,178 INFO    SenderThread:444 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\requirements.txt requirements.txt
+2024-03-24 18:28:35,178 INFO    SenderThread:444 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\wandb-metadata.json wandb-metadata.json
+2024-03-24 18:28:35,180 INFO    SenderThread:444 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\wandb-summary.json wandb-summary.json
+2024-03-24 18:28:35,182 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 10
+2024-03-24 18:28:35,182 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 18:28:35,182 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:35,185 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-24 18:28:35,185 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:35,185 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-24 18:28:35,185 INFO    SenderThread:444 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-24 18:28:35,528 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 18:28:35,529 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 18:28:35,943 INFO    wandb-upload_1:444 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\output.log
+2024-03-24 18:28:36,012 INFO    wandb-upload_0:444 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\config.yaml
+2024-03-24 18:28:36,146 INFO    wandb-upload_3:444 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\wandb-summary.json
+2024-03-24 18:28:36,349 INFO    wandb-upload_2:444 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\files\requirements.txt
+2024-03-24 18:28:36,542 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 18:28:36,542 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 18:28:36,558 INFO    Thread-15 :444 [sender.py:transition_state():613] send defer: 11
+2024-03-24 18:28:36,559 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:36,559 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-24 18:28:36,559 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:36,559 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-24 18:28:36,559 INFO    SenderThread:444 [file_pusher.py:join():178] waiting for file pusher
+2024-03-24 18:28:36,560 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 12
+2024-03-24 18:28:36,560 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:36,560 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-24 18:28:36,560 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:36,560 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-24 18:28:36,560 INFO    SenderThread:444 [file_stream.py:finish():595] file stream finish called
+2024-03-24 18:28:36,854 INFO    SenderThread:444 [file_stream.py:finish():599] file stream finish is done
+2024-03-24 18:28:36,854 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 13
+2024-03-24 18:28:36,854 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:36,855 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-24 18:28:36,855 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:36,855 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-24 18:28:36,855 INFO    SenderThread:444 [sender.py:transition_state():613] send defer: 14
+2024-03-24 18:28:36,855 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: defer
+2024-03-24 18:28:36,855 INFO    HandlerThread:444 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-24 18:28:36,856 DEBUG   SenderThread:444 [sender.py:send():378] send: final
+2024-03-24 18:28:36,856 DEBUG   SenderThread:444 [sender.py:send():378] send: footer
+2024-03-24 18:28:36,856 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: defer
+2024-03-24 18:28:36,856 INFO    SenderThread:444 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-24 18:28:36,856 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 18:28:36,857 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-24 18:28:36,857 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: server_info
+2024-03-24 18:28:36,857 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 18:28:36,857 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-24 18:28:36,857 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: poll_exit
+2024-03-24 18:28:36,858 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-24 18:28:36,858 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: server_info
+2024-03-24 18:28:36,858 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-24 18:28:36,859 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: job_info
+2024-03-24 18:28:37,157 DEBUG   SenderThread:444 [sender.py:send_request():405] send_request: job_info
+2024-03-24 18:28:37,157 INFO    MainThread:444 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-24 18:28:37,157 INFO    MainThread:444 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-24 18:28:37,157 INFO    MainThread:444 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-24 18:28:37,158 DEBUG   HandlerThread:444 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-24 18:28:37,159 INFO    HandlerThread:444 [handler.py:finish():869] shutting down handler
+2024-03-24 18:28:37,872 INFO    WriterThread:444 [datastore.py:close():296] close: C:\Shaurya\Longformer2\wandb\run-20240324_182754-8f4a3bad\run-8f4a3bad.wandb
+2024-03-24 18:28:38,170 INFO    SenderThread:444 [sender.py:finish():1521] shutting down sender
+2024-03-24 18:28:38,170 INFO    SenderThread:444 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-24 18:28:38,170 INFO    SenderThread:444 [file_pusher.py:join():178] waiting for file pusher
