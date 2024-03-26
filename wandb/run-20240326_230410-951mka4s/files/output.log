@@ -1,0 +1,39 @@
+Max Length for sentence = 44
+built
+Processing Epoch 00:   0%|▏                                                                                                                                      | 3/2138 [00:01<14:00,  2.54it/s, loss=25.000]
+tensor([0, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   0%|▌                                                                                                                                      | 9/2138 [00:03<11:51,  2.99it/s, loss=50.000]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:   1%|▉                                                                                                                                     | 15/2138 [00:05<11:40,  3.03it/s, loss=50.000]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:   1%|█▎                                                                                                                                     | 21/2138 [00:07<11:36,  3.04it/s, loss=0.000]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+Processing Epoch 00:   1%|█▌                                                                                                                                    | 25/2138 [00:08<12:24,  2.84it/s, loss=25.000]
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 67, in <module>
+    main(arguments)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 25, in main
+    train_model(config)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\train.py", line 156, in train_model
+    encoder_input = batch['encoder_input'].to(device)
+KeyboardInterrupt
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')

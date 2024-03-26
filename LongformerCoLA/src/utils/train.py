@@ -14,7 +14,7 @@ from utils.config import get_weights_path
 from tqdm import tqdm
 from torch.optim.lr_scheduler import ExponentialLR
 import wandb
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, f1_score
 
 ##get wandb here
 wandb.init(
@@ -76,10 +76,12 @@ def validate(model, dataloader, device):
     total_predictions = 0
 
     with torch.no_grad():
+        outputs = []
+        labels = []
         for batch in dataloader:
             input_ids = batch["encoder_input"].to(device)
             attention_mask = batch["encoder_mask"].to(device)
-            labels = batch["label"].to(device)
+            label = batch["label"].to(device)
             outputs = model.encode(input_ids, attention_mask)
             classification_output = model.project(outputs)
             classification_output = classification_output.transpose(0, 1)
@@ -87,9 +89,15 @@ def validate(model, dataloader, device):
 
             output = threshold(classification_output, 0.5)
 
-            correct_predictions += (output == labels).sum().item()
-            total_predictions += labels.size(0)
+            correct_predictions += (output == label).sum().item()
+            total_predictions += label.size(0)
 
+            output_numpy = output.detach().cpu().numpy()
+            labels_numpy = label.detach().cpu().numpy()
+            outputs.append(output_numpy)
+            labels.append(labels_numpy)
+        print(confusion_matrix(labels, outputs))
+        print(f1_score(labels, outputs))
     model.train()
     return correct_predictions / total_predictions * 100.0
 
@@ -161,6 +169,7 @@ def train_model(config):
             print(output, label)
             label = label.float()
             classification_output = classification_output.float()
+            print(classification_output)
             loss = loss_fn(classification_output, label)
             batch_iterator.set_postfix({"loss": f"{loss.item():6.3f}"})
 
