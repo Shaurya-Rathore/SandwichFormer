@@ -1,0 +1,47 @@
+Max Length for sentence = 44
+built
+Processing Epoch 00:   0%|                                                                                                                     | 2/2138 [00:01<20:24,  1.74it/s, loss=0.554]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   0%|▍                                                                                                                    | 7/2138 [00:03<14:35,  2.43it/s, loss=0.233]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   1%|▋                                                                                                                   | 13/2138 [00:05<13:50,  2.56it/s, loss=0.657]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   1%|▉                                                                                                                   | 18/2138 [00:07<13:47,  2.56it/s, loss=1.231]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   1%|█▏                                                                                                                  | 23/2138 [00:09<13:41,  2.57it/s, loss=0.804]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:   1%|█▎                                                                                                                  | 24/2138 [00:09<13:39,  2.58it/s, loss=0.592]
+
+Processing Epoch 00:   1%|█▎                                                                                                                  | 25/2138 [00:12<36:44,  1.04s/it, loss=0.199]
+
+Processing Epoch 00:   1%|█▍                                                                                                                | 26/2138 [00:16<1:06:04,  1.88s/it, loss=0.708]
+
+
+Processing Epoch 00:   1%|█▍                                                                                                                | 28/2138 [00:23<1:41:34,  2.89s/it, loss=1.856]
+
+Processing Epoch 00:   1%|█▌                                                                                                                | 29/2138 [00:27<1:51:35,  3.17s/it, loss=0.094]
+
+Processing Epoch 00:   1%|█▌                                                                                                                | 30/2138 [00:31<1:58:56,  3.39s/it, loss=0.734]
+
+Processing Epoch 00:   1%|█▋                                                                                                                | 31/2138 [00:35<2:03:48,  3.53s/it, loss=0.154]
+
+Processing Epoch 00:   1%|█▋                                                                                                                | 31/2138 [00:39<2:03:48,  3.53s/it, loss=1.257]

@@ -1,0 +1,25 @@
+Max Length for sentence = 44
+built
+Processing Epoch 00:   0%|                                                                                                                                                            | 0/2138 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 44, in <module>
+    main(arguments)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 25, in main
+    train_model(config)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\train.py", line 145, in train_model
+    classification_output = model.project(encoder_output) # (B, 1, label_size)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\model.py", line 175, in project
+    return self.classification_head(x)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\model.py", line 129, in forward
+    x = linfin(x)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)

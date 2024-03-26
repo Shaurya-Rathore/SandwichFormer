@@ -9,12 +9,25 @@ from tokenizers.pre_tokenizers import Whitespace
 from datasets import load_dataset
 from pathlib import Path
 from utils.dataset import CoLADataset
-from utils.model import build_longformer
+from utils.model import build_transformer
 from utils.config import get_weights_path, get_config
 from tqdm import tqdm
 from torch.optim.lr_scheduler import ExponentialLR
 import wandb
+from sklearn.metrics import confusion_matrix
+
 ##get wandb here
+wandb.init(
+    # set the wandb project where this run will be logged
+    project="SandwichFormer - CoLA",
+
+    # track hyperparameters and run metadata
+    config={
+    "architecture": "BERT(Restructured)",
+    "dataset": "CoLA",
+    "epochs": 6,
+    }
+)
 
 def get_all_sentences():
     ds = load_dataset("glue", "cola", split='train')
@@ -34,13 +47,15 @@ def get_or_build_tokenizer(config):
         tokenizer = Tokenizer.from_file(str(tokenizer_path))
     return tokenizer
 
-def get_ds(config):
+def get_ds(config, device):
     train_data_raw = load_dataset("glue", "cola", split='train')
     val_data_raw = load_dataset("glue", "cola", split='validation')
+    test_data_raw = load_dataset("glue","cola", split='test')
     tokenizer = get_or_build_tokenizer(config)
 
     train_ds = CoLADataset(train_data_raw, tokenizer, config['seq_len'])
     val_ds = CoLADataset(val_data_raw, tokenizer, config['seq_len'])
+    test_ds = CoLADataset(test_data_raw, tokenizer, config['seq_len'])
     
     max_len = 0
     
@@ -52,11 +67,34 @@ def get_ds(config):
         
     train_dataloader = DataLoader(train_ds, batch_size=config['batch_size'], shuffle = True)
     val_dataloader = DataLoader(val_ds, batch_size=1, shuffle = True)
-    
-    return train_dataloader, val_dataloader, tokenizer
+    test_dataloader = DataLoader(test_ds, batch_size=1, shuffle= True)
+    return train_dataloader, val_dataloader, tokenizer, test_dataloader
 
-def get_model(config, inp_vocab_size):
-    model = build_longformer(
+def validate(model, dataloader, device):
+    model.eval()
+    correct_predictions = 0
+    total_predictions = 0
+
+    with torch.no_grad():
+        for batch in dataloader:
+            input_ids = batch["input_ids"].to(device)
+            attention_mask = batch["attention_mask"].to(device)
+            labels = batch["labels"].to(device)
+            outputs = model.encode(input_ids, attention_mask=attention_mask)
+            classification_output = model.project(outputs) # (B, 1, label_size)
+            classification_output = classification_output.transpose(0, 1)
+            classification_output = torch.squeeze(classification_output, dim=0)
+
+            output = threshold(classification_output, 0.5)
+
+            correct_predictions += (output == labels).sum().item()
+            total_predictions += labels.size(0)
+
+    model.train()
+    return correct_predictions / total_predictions * 100.0
+
+def get_model(config, inp_vocab_size,device):
+    model = build_transformer(
         inp_vocab_size, 
         config['num_labels'], 
         config['seq_len'], 
@@ -64,7 +102,8 @@ def get_model(config, inp_vocab_size):
         config['num_layers'], 
         config['num_heads'], 
         config['dropout'], 
-        config['intermediate_size']
+        config['intermediate_size'],
+        device
         )
     return model
 
@@ -74,12 +113,12 @@ def threshold(tensor, threshold_value):
 
 
 def train_model(config):
-    #device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    device = "cpu"
-    Path(config['model_folder']).mkdir(parents=True, exist_ok=True)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    #Path(config['model_folder']).mkdir(parents=True, exist_ok=True)
     
-    train_dataloader, val_dataloader, tokenizer = get_ds(config)
-    model = get_model(config, tokenizer.get_vocab_size()).to(device)
+    train_dataloader, val_dataloader, tokenizer, test_dataloader = get_ds(config, device)
+    model = get_model(config, tokenizer.get_vocab_size(),device)
+    model.to(device)
     
     
     optimizer = torch.optim.Adam(model.parameters(), lr = config['lr'], eps= 1e-9)
@@ -96,17 +135,19 @@ def train_model(config):
         global_step = state['global_step']
         
     loss_fn = nn.BCELoss().to(device)
+    best_val_accuracy = 0
     
     for epoch in range(init_epoch, config['epochs']):
         model.train()
         batch_iterator = tqdm(train_dataloader, desc=f"Processing Epoch {epoch:02d}")
+        per_epoch_outputs = []
+        per_epoch_labels = []
         for batch in batch_iterator:
             optimizer.zero_grad(set_to_none=True)
-
             
             encoder_input = batch['encoder_input'].to(device)
             encoder_mask = batch['encoder_mask'].to(device)
-            label = batch['label'].to(device) # (B, 1)
+            label = batch['label'].to(device)
             
             encoder_output = model.encode(encoder_input, encoder_mask) # (B, Seq_Len, d_model)
             classification_output = model.project(encoder_output) # (B, 1, label_size)
@@ -114,7 +155,8 @@ def train_model(config):
             classification_output = torch.squeeze(classification_output, dim=0)
 
             output = threshold(classification_output, 0.5)
-
+            per_epoch_outputs.append(output)
+            per_epoch_labels.append(label)
             
             print(output, label)
             label = label.float()
@@ -122,7 +164,7 @@ def train_model(config):
             loss = loss_fn(classification_output, label)
             batch_iterator.set_postfix({"loss": f"{loss.item():6.3f}"})
 
-            #wandb.log({"batch": batch, "loss": loss})
+            wandb.log({"batch": batch, "loss": loss})
 
             loss.backward()
 
@@ -132,13 +174,16 @@ def train_model(config):
 
             global_step += 1
 
-            
+        print(confusion_matrix(per_epoch_labels, per_epoch_outputs))
+        val_accuracy = validate(model, val_dataloader, device)        
         
-        model_filename = get_weights_path(config, f'{epoch:02d}')
-        torch.save({
-            'epoch' : epoch,
+        if val_accuracy >= best_val_accuracy:
+            best_val_accuracy = val_accuracy
+            model_filename = get_weights_path(config, f'{epoch:02d}')
+            torch.save({
+                'epoch' : epoch,
             'model_state_dict' : model.state_dict(),
             'optimizer_state_dict' : optimizer.state_dict(),
             'global_step' : global_step
-        }, model_filename)
+            }, model_filename)
         

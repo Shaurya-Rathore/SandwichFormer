@@ -1,0 +1,2427 @@
+Max Length for sentence = 44
+built
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   1%|▋                                                                                                                                  | 12/2138 [00:03<09:04,  3.90it/s, loss=0.502]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   1%|█▏                                                                                                                                 | 20/2138 [00:05<09:01,  3.91it/s, loss=0.558]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   1%|█▋                                                                                                                                 | 28/2138 [00:07<08:59,  3.91it/s, loss=0.688]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   2%|██▏                                                                                                                                | 36/2138 [00:09<08:58,  3.90it/s, loss=0.967]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   2%|██▋                                                                                                                                | 44/2138 [00:11<09:02,  3.86it/s, loss=0.982]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   2%|███▏                                                                                                                               | 52/2138 [00:13<08:52,  3.92it/s, loss=1.070]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   3%|███▋                                                                                                                               | 60/2138 [00:15<08:52,  3.90it/s, loss=0.568]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   3%|████▏                                                                                                                              | 68/2138 [00:17<08:50,  3.90it/s, loss=1.048]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:   4%|████▋                                                                                                                              | 76/2138 [00:19<08:48,  3.90it/s, loss=0.452]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   4%|█████                                                                                                                              | 83/2138 [00:21<08:53,  3.85it/s, loss=0.451]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   4%|█████▌                                                                                                                             | 91/2138 [00:23<08:57,  3.81it/s, loss=0.837]
+tensor([1, 0, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:   5%|██████                                                                                                                             | 99/2138 [00:25<08:48,  3.86it/s, loss=0.470]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   5%|██████▌                                                                                                                           | 107/2138 [00:27<08:50,  3.83it/s, loss=0.581]
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   5%|██████▉                                                                                                                           | 115/2138 [00:29<08:41,  3.88it/s, loss=0.652]
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   6%|███████▍                                                                                                                          | 123/2138 [00:31<08:39,  3.88it/s, loss=0.664]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   6%|███████▊                                                                                                                          | 129/2138 [00:33<08:39,  3.87it/s, loss=0.430]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   6%|████████▎                                                                                                                         | 137/2138 [00:35<08:38,  3.86it/s, loss=0.633]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   7%|████████▊                                                                                                                         | 145/2138 [00:37<08:32,  3.89it/s, loss=0.509]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   7%|█████████▏                                                                                                                        | 152/2138 [00:39<08:35,  3.85it/s, loss=0.583]
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   8%|█████████▊                                                                                                                        | 161/2138 [00:41<08:49,  3.73it/s, loss=0.671]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   8%|██████████▏                                                                                                                       | 168/2138 [00:43<08:33,  3.84it/s, loss=0.788]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   8%|██████████▋                                                                                                                       | 176/2138 [00:45<08:29,  3.85it/s, loss=0.411]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:   9%|███████████▏                                                                                                                      | 184/2138 [00:47<08:27,  3.85it/s, loss=0.649]
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:   9%|███████████▋                                                                                                                      | 192/2138 [00:49<08:22,  3.87it/s, loss=0.590]
+tensor([0, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   9%|████████████▏                                                                                                                     | 200/2138 [00:52<08:30,  3.79it/s, loss=0.661]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  10%|████████████▋                                                                                                                     | 208/2138 [00:54<08:26,  3.81it/s, loss=0.652]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([0, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  10%|█████████████▏                                                                                                                    | 216/2138 [00:56<08:21,  3.83it/s, loss=1.160]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  10%|█████████████▍                                                                                                                    | 221/2138 [00:57<08:16,  3.86it/s, loss=0.660]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  11%|█████████████▉                                                                                                                    | 229/2138 [00:59<08:17,  3.84it/s, loss=0.561]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  11%|██████████████▍                                                                                                                   | 237/2138 [01:01<08:23,  3.78it/s, loss=0.978]
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  11%|██████████████▉                                                                                                                   | 245/2138 [01:03<08:11,  3.85it/s, loss=0.749]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  12%|███████████████▍                                                                                                                  | 253/2138 [01:05<08:08,  3.86it/s, loss=0.646]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  12%|███████████████▊                                                                                                                  | 261/2138 [01:08<08:12,  3.81it/s, loss=0.652]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  13%|████████████████▎                                                                                                                 | 268/2138 [01:10<08:12,  3.80it/s, loss=0.693]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  13%|████████████████▊                                                                                                                 | 276/2138 [01:11<08:08,  3.81it/s, loss=0.766]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  13%|█████████████████▎                                                                                                                | 284/2138 [01:14<08:05,  3.82it/s, loss=0.593]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  14%|█████████████████▊                                                                                                                | 292/2138 [01:16<08:02,  3.83it/s, loss=0.686]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  14%|██████████████████▏                                                                                                               | 300/2138 [01:18<08:02,  3.81it/s, loss=0.670]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  14%|██████████████████▋                                                                                                               | 307/2138 [01:20<07:58,  3.82it/s, loss=0.804]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  15%|███████████████████▏                                                                                                              | 315/2138 [01:22<07:57,  3.82it/s, loss=0.694]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  15%|███████████████████▌                                                                                                              | 321/2138 [01:23<07:54,  3.83it/s, loss=0.660]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  15%|████████████████████                                                                                                              | 329/2138 [01:25<07:54,  3.82it/s, loss=0.684]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  16%|████████████████████▍                                                                                                             | 337/2138 [01:27<08:05,  3.71it/s, loss=0.566]
+tensor([1, 0, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  16%|████████████████████▉                                                                                                             | 345/2138 [01:30<07:49,  3.82it/s, loss=0.482]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  16%|█████████████████████▍                                                                                                            | 352/2138 [01:31<07:53,  3.77it/s, loss=0.467]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  17%|█████████████████████▉                                                                                                            | 360/2138 [01:33<07:43,  3.84it/s, loss=0.850]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 0, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  17%|██████████████████████▍                                                                                                           | 368/2138 [01:36<07:41,  3.84it/s, loss=0.907]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  18%|██████████████████████▊                                                                                                           | 376/2138 [01:38<07:46,  3.78it/s, loss=0.624]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  18%|███████████████████████▎                                                                                                          | 384/2138 [01:40<07:45,  3.77it/s, loss=0.597]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  18%|███████████████████████▊                                                                                                          | 391/2138 [01:42<07:39,  3.80it/s, loss=0.520]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  19%|████████████████████████▎                                                                                                         | 399/2138 [01:44<07:31,  3.86it/s, loss=0.830]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  19%|████████████████████████▋                                                                                                         | 405/2138 [01:45<07:33,  3.82it/s, loss=0.754]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  19%|█████████████████████████                                                                                                         | 413/2138 [01:47<07:36,  3.78it/s, loss=0.631]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  20%|█████████████████████████▌                                                                                                        | 421/2138 [01:50<07:33,  3.79it/s, loss=0.626]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  20%|██████████████████████████                                                                                                        | 428/2138 [01:51<07:32,  3.78it/s, loss=0.811]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  20%|██████████████████████████▌                                                                                                       | 436/2138 [01:53<07:23,  3.84it/s, loss=0.769]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  21%|██████████████████████████▉                                                                                                       | 444/2138 [01:56<07:23,  3.82it/s, loss=0.582]
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  21%|███████████████████████████▍                                                                                                      | 452/2138 [01:58<07:33,  3.72it/s, loss=0.900]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  21%|███████████████████████████▉                                                                                                      | 459/2138 [02:00<07:20,  3.81it/s, loss=0.721]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  22%|████████████████████████████▍                                                                                                     | 467/2138 [02:02<07:21,  3.79it/s, loss=0.501]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  22%|████████████████████████████▉                                                                                                     | 475/2138 [02:04<07:18,  3.79it/s, loss=0.650]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  23%|█████████████████████████████▎                                                                                                    | 483/2138 [02:06<07:20,  3.76it/s, loss=0.723]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  23%|█████████████████████████████▋                                                                                                    | 489/2138 [02:07<07:12,  3.81it/s, loss=0.653]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  23%|██████████████████████████████▏                                                                                                   | 496/2138 [02:10<07:09,  3.82it/s, loss=0.586]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  24%|██████████████████████████████▋                                                                                                   | 504/2138 [02:11<07:13,  3.77it/s, loss=0.509]
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  24%|███████████████████████████████▏                                                                                                  | 512/2138 [02:14<07:05,  3.82it/s, loss=0.536]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  24%|███████████████████████████████▌                                                                                                  | 520/2138 [02:16<07:03,  3.82it/s, loss=0.660]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  25%|████████████████████████████████                                                                                                  | 528/2138 [02:18<07:02,  3.81it/s, loss=1.070]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  25%|████████████████████████████████▌                                                                                                 | 535/2138 [02:20<07:04,  3.78it/s, loss=0.899]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  25%|█████████████████████████████████                                                                                                 | 543/2138 [02:22<07:06,  3.74it/s, loss=0.508]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  26%|█████████████████████████████████▌                                                                                                | 551/2138 [02:24<06:56,  3.81it/s, loss=0.722]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  26%|█████████████████████████████████▉                                                                                                | 559/2138 [02:26<06:54,  3.81it/s, loss=0.640]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  26%|██████████████████████████████████▍                                                                                               | 566/2138 [02:28<07:02,  3.72it/s, loss=0.560]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  27%|██████████████████████████████████▉                                                                                               | 574/2138 [02:30<06:50,  3.81it/s, loss=0.704]
+tensor([0, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  27%|███████████████████████████████████▎                                                                                              | 580/2138 [02:32<06:51,  3.79it/s, loss=0.584]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  28%|███████████████████████████████████▊                                                                                              | 588/2138 [02:34<06:50,  3.78it/s, loss=0.803]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  28%|████████████████████████████████████▏                                                                                             | 595/2138 [02:36<06:49,  3.76it/s, loss=0.474]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  28%|████████████████████████████████████▋                                                                                             | 603/2138 [02:38<06:42,  3.82it/s, loss=0.705]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  29%|█████████████████████████████████████▏                                                                                            | 611/2138 [02:40<06:45,  3.77it/s, loss=0.711]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  29%|█████████████████████████████████████▋                                                                                            | 619/2138 [02:42<06:42,  3.77it/s, loss=0.713]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  29%|██████████████████████████████████████                                                                                            | 626/2138 [02:44<06:39,  3.79it/s, loss=0.366]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  30%|██████████████████████████████████████▌                                                                                           | 634/2138 [02:46<06:36,  3.79it/s, loss=0.505]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  30%|███████████████████████████████████████                                                                                           | 642/2138 [02:48<06:36,  3.78it/s, loss=0.543]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  30%|███████████████████████████████████████▌                                                                                          | 650/2138 [02:50<06:30,  3.81it/s, loss=0.779]
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  31%|███████████████████████████████████████▉                                                                                          | 657/2138 [02:52<06:34,  3.75it/s, loss=0.586]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  31%|████████████████████████████████████████▍                                                                                         | 665/2138 [02:54<06:31,  3.76it/s, loss=0.744]
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  31%|████████████████████████████████████████▊                                                                                         | 671/2138 [02:56<06:26,  3.79it/s, loss=0.602]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  32%|█████████████████████████████████████████▎                                                                                        | 679/2138 [02:58<06:27,  3.76it/s, loss=0.391]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  32%|█████████████████████████████████████████▋                                                                                        | 686/2138 [03:00<06:28,  3.74it/s, loss=0.618]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  32%|██████████████████████████████████████████▏                                                                                       | 694/2138 [03:02<06:26,  3.74it/s, loss=0.926]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  33%|██████████████████████████████████████████▋                                                                                       | 702/2138 [03:04<06:24,  3.73it/s, loss=0.459]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  33%|███████████████████████████████████████████▏                                                                                      | 710/2138 [03:06<06:20,  3.75it/s, loss=0.956]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  34%|███████████████████████████████████████████▌                                                                                      | 717/2138 [03:08<06:20,  3.74it/s, loss=0.832]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  34%|████████████████████████████████████████████                                                                                      | 725/2138 [03:10<06:14,  3.77it/s, loss=0.588]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  34%|████████████████████████████████████████████▌                                                                                     | 733/2138 [03:12<06:17,  3.72it/s, loss=0.675]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  35%|█████████████████████████████████████████████                                                                                     | 741/2138 [03:14<06:11,  3.76it/s, loss=0.669]
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  35%|█████████████████████████████████████████████▍                                                                                    | 748/2138 [03:16<06:16,  3.69it/s, loss=0.688]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  35%|█████████████████████████████████████████████▊                                                                                    | 754/2138 [03:18<06:09,  3.75it/s, loss=0.533]
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  36%|██████████████████████████████████████████████▎                                                                                   | 762/2138 [03:20<06:04,  3.77it/s, loss=0.960]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  36%|██████████████████████████████████████████████▊                                                                                   | 769/2138 [03:22<06:04,  3.76it/s, loss=0.546]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  37%|███████████████████████████████████████████████▋                                                                                  | 785/2138 [03:26<06:00,  3.76it/s, loss=0.530]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  37%|████████████████████████████████████████████████▏                                                                                 | 792/2138 [03:28<05:58,  3.75it/s, loss=0.655]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 0, 0, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  38%|█████████████████████████████████████████████████▏                                                                                | 808/2138 [03:32<05:53,  3.76it/s, loss=0.507]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  38%|█████████████████████████████████████████████████▌                                                                                | 816/2138 [03:34<05:50,  3.77it/s, loss=0.637]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  38%|██████████████████████████████████████████████████                                                                                | 823/2138 [03:36<05:49,  3.76it/s, loss=0.727]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  39%|███████████████████████████████████████████████████                                                                               | 839/2138 [03:40<05:56,  3.65it/s, loss=0.676]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  39%|███████████████████████████████████████████████████▎                                                                              | 844/2138 [03:42<05:43,  3.76it/s, loss=0.788]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  40%|████████████████████████████████████████████████████▎                                                                             | 860/2138 [03:46<05:39,  3.76it/s, loss=0.677]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  41%|████████████████████████████████████████████████████▊                                                                             | 868/2138 [03:48<05:36,  3.77it/s, loss=0.473]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  41%|█████████████████████████████████████████████████████▏                                                                            | 875/2138 [03:50<05:32,  3.80it/s, loss=0.617]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  42%|██████████████████████████████████████████████████████▏                                                                           | 891/2138 [03:54<05:30,  3.77it/s, loss=0.679]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  42%|██████████████████████████████████████████████████████▋                                                                           | 899/2138 [03:56<05:28,  3.77it/s, loss=0.775]
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  42%|███████████████████████████████████████████████████████▏                                                                          | 907/2138 [03:58<05:23,  3.81it/s, loss=0.734]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  43%|███████████████████████████████████████████████████████▌                                                                          | 914/2138 [04:00<05:24,  3.77it/s, loss=0.514]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  43%|████████████████████████████████████████████████████████                                                                          | 922/2138 [04:02<05:22,  3.77it/s, loss=0.715]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  43%|████████████████████████████████████████████████████████▌                                                                         | 930/2138 [04:04<05:18,  3.79it/s, loss=0.625]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  44%|████████████████████████████████████████████████████████▉                                                                         | 937/2138 [04:07<05:17,  3.78it/s, loss=0.387]
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+
+Processing Epoch 00:  44%|█████████████████████████████████████████████████████████▊                                                                        | 951/2138 [04:10<05:11,  3.81it/s, loss=0.464]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+
+Processing Epoch 00:  45%|██████████████████████████████████████████████████████████▊                                                                       | 967/2138 [04:14<05:09,  3.78it/s, loss=0.781]
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  46%|███████████████████████████████████████████████████████████▏                                                                      | 974/2138 [04:16<05:07,  3.79it/s, loss=0.592]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  46%|███████████████████████████████████████████████████████████▋                                                                      | 982/2138 [04:18<05:03,  3.80it/s, loss=0.650]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  47%|████████████████████████████████████████████████████████████▋                                                                     | 998/2138 [04:22<05:03,  3.76it/s, loss=0.480]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  47%|████████████████████████████████████████████████████████████▌                                                                    | 1004/2138 [04:24<05:07,  3.69it/s, loss=0.725]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  47%|█████████████████████████████████████████████████████████████                                                                    | 1013/2138 [04:26<05:01,  3.73it/s, loss=0.523]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  48%|█████████████████████████████████████████████████████████████▌                                                                   | 1021/2138 [04:29<04:59,  3.74it/s, loss=1.185]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  48%|██████████████████████████████████████████████████████████████                                                                   | 1029/2138 [04:31<04:54,  3.77it/s, loss=0.630]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  48%|██████████████████████████████████████████████████████████████▍                                                                  | 1035/2138 [04:32<04:49,  3.81it/s, loss=0.600]
+tensor([0, 0, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  49%|██████████████████████████████████████████████████████████████▊                                                                  | 1042/2138 [04:34<04:50,  3.78it/s, loss=0.540]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  49%|███████████████████████████████████████████████████████████████▎                                                                 | 1050/2138 [04:36<04:50,  3.75it/s, loss=0.996]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  49%|███████████████████████████████████████████████████████████████▊                                                                 | 1058/2138 [04:38<04:46,  3.77it/s, loss=0.673]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  50%|████████████████████████████████████████████████████████████████▎                                                                | 1065/2138 [04:40<04:46,  3.74it/s, loss=0.524]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  50%|████████████████████████████████████████████████████████████████▋                                                                | 1073/2138 [04:42<04:39,  3.82it/s, loss=0.775]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+
+Processing Epoch 00:  51%|█████████████████████████████████████████████████████████████████▋                                                               | 1089/2138 [04:46<04:36,  3.79it/s, loss=0.468]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  51%|██████████████████████████████████████████████████████████████████▏                                                              | 1096/2138 [04:48<04:32,  3.82it/s, loss=0.713]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  52%|███████████████████████████████████████████████████████████████████                                                              | 1112/2138 [04:53<04:32,  3.77it/s, loss=0.669]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  52%|███████████████████████████████████████████████████████████████████▍                                                             | 1118/2138 [04:54<04:27,  3.81it/s, loss=0.970]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  53%|███████████████████████████████████████████████████████████████████▉                                                             | 1127/2138 [04:56<04:24,  3.82it/s, loss=0.602]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  53%|████████████████████████████████████████████████████████████████████▍                                                            | 1135/2138 [04:59<04:23,  3.80it/s, loss=0.651]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  53%|████████████████████████████████████████████████████████████████████▉                                                            | 1142/2138 [05:00<04:22,  3.79it/s, loss=0.678]
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  54%|█████████████████████████████████████████████████████████████████████▍                                                           | 1150/2138 [05:03<04:23,  3.75it/s, loss=0.502]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  54%|█████████████████████████████████████████████████████████████████████▊                                                           | 1158/2138 [05:05<04:17,  3.81it/s, loss=0.663]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  54%|██████████████████████████████████████████████████████████████████████▎                                                          | 1165/2138 [05:07<04:14,  3.82it/s, loss=0.593]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  55%|██████████████████████████████████████████████████████████████████████▊                                                          | 1173/2138 [05:09<04:13,  3.81it/s, loss=0.419]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  55%|███████████████████████████████████████████████████████████████████████▎                                                         | 1181/2138 [05:11<04:14,  3.75it/s, loss=0.533]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+
+
+Processing Epoch 00:  56%|████████████████████████████████████████████████████████████████████████▏                                                        | 1196/2138 [05:15<04:08,  3.79it/s, loss=0.577]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  56%|████████████████████████████████████████████████████████████████████████▋                                                        | 1204/2138 [05:17<04:05,  3.81it/s, loss=0.884]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  57%|█████████████████████████████████████████████████████████████████████████▏                                                       | 1212/2138 [05:19<04:04,  3.78it/s, loss=0.519]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  57%|█████████████████████████████████████████████████████████████████████████▌                                                       | 1219/2138 [05:21<04:03,  3.77it/s, loss=0.607]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  58%|██████████████████████████████████████████████████████████████████████████▌                                                      | 1235/2138 [05:25<03:56,  3.82it/s, loss=0.792]
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+
+Processing Epoch 00:  58%|███████████████████████████████████████████████████████████████████████████▍                                                     | 1250/2138 [05:29<03:52,  3.83it/s, loss=0.893]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  59%|███████████████████████████████████████████████████████████████████████████▉                                                     | 1258/2138 [05:31<03:49,  3.83it/s, loss=0.605]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  60%|████████████████████████████████████████████████████████████████████████████▊                                                    | 1273/2138 [05:35<03:48,  3.79it/s, loss=0.532]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+
+Processing Epoch 00:  60%|█████████████████████████████████████████████████████████████████████████████▊                                                   | 1289/2138 [05:39<03:42,  3.81it/s, loss=0.597]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  61%|██████████████████████████████████████████████████████████████████████████████▋                                                  | 1304/2138 [05:43<03:38,  3.81it/s, loss=0.800]
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  61%|███████████████████████████████████████████████████████████████████████████████▏                                                 | 1312/2138 [05:45<03:41,  3.73it/s, loss=0.657]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  62%|███████████████████████████████████████████████████████████████████████████████▉                                                 | 1325/2138 [05:49<03:36,  3.75it/s, loss=0.559]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  62%|████████████████████████████████████████████████████████████████████████████████▍                                                | 1333/2138 [05:51<03:33,  3.76it/s, loss=1.055]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  63%|████████████████████████████████████████████████████████████████████████████████▉                                                | 1341/2138 [05:53<03:32,  3.74it/s, loss=0.560]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+
+Processing Epoch 00:  63%|█████████████████████████████████████████████████████████████████████████████████▊                                               | 1356/2138 [05:57<03:24,  3.82it/s, loss=0.695]
+tensor([0, 0, 0, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  64%|██████████████████████████████████████████████████████████████████████████████████▎                                              | 1364/2138 [05:59<03:25,  3.77it/s, loss=0.485]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+
+Processing Epoch 00:  64%|███████████████████████████████████████████████████████████████████████████████████▏                                             | 1379/2138 [06:03<03:20,  3.79it/s, loss=0.433]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  65%|███████████████████████████████████████████████████████████████████████████████████▋                                             | 1387/2138 [06:05<03:17,  3.80it/s, loss=0.524]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  65%|████████████████████████████████████████████████████████████████████████████████████▏                                            | 1395/2138 [06:07<03:15,  3.81it/s, loss=0.470]
+tensor([0, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  66%|████████████████████████████████████████████████████████████████████████████████████▌                                            | 1402/2138 [06:09<03:12,  3.82it/s, loss=0.512]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  66%|█████████████████████████████████████████████████████████████████████████████████████                                            | 1410/2138 [06:11<03:13,  3.77it/s, loss=0.572]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  66%|█████████████████████████████████████████████████████████████████████████████████████▌                                           | 1418/2138 [06:13<03:10,  3.78it/s, loss=0.571]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  67%|█████████████████████████████████████████████████████████████████████████████████████▉                                           | 1425/2138 [06:15<03:08,  3.78it/s, loss=0.922]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  67%|██████████████████████████████████████████████████████████████████████████████████████▍                                          | 1433/2138 [06:17<03:05,  3.79it/s, loss=0.881]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+
+Processing Epoch 00:  68%|███████████████████████████████████████████████████████████████████████████████████████▎                                         | 1448/2138 [06:21<03:01,  3.79it/s, loss=0.804]
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  68%|███████████████████████████████████████████████████████████████████████████████████████▊                                         | 1456/2138 [06:23<02:59,  3.81it/s, loss=0.587]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  68%|████████████████████████████████████████████████████████████████████████████████████████▎                                        | 1464/2138 [06:25<02:56,  3.81it/s, loss=0.616]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  69%|████████████████████████████████████████████████████████████████████████████████████████▊                                        | 1472/2138 [06:27<02:56,  3.78it/s, loss=1.007]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  69%|█████████████████████████████████████████████████████████████████████████████████████████▏                                       | 1479/2138 [06:29<02:53,  3.81it/s, loss=0.432]
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  70%|█████████████████████████████████████████████████████████████████████████████████████████▋                                       | 1487/2138 [06:31<02:52,  3.78it/s, loss=1.133]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  70%|██████████████████████████████████████████████████████████████████████████████████████████▏                                      | 1495/2138 [06:33<02:48,  3.82it/s, loss=0.506]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  70%|██████████████████████████████████████████████████████████████████████████████████████████▋                                      | 1502/2138 [06:36<02:47,  3.79it/s, loss=0.577]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  71%|███████████████████████████████████████████████████████████████████████████████████████████                                      | 1510/2138 [06:37<02:44,  3.82it/s, loss=0.604]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  71%|███████████████████████████████████████████████████████████████████████████████████████████▌                                     | 1517/2138 [06:39<02:42,  3.81it/s, loss=0.661]
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  71%|████████████████████████████████████████████████████████████████████████████████████████████                                     | 1526/2138 [06:42<02:41,  3.80it/s, loss=0.544]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  72%|████████████████████████████████████████████████████████████████████████████████████████████▍                                    | 1533/2138 [06:44<02:40,  3.78it/s, loss=0.401]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  72%|████████████████████████████████████████████████████████████████████████████████████████████▉                                    | 1541/2138 [06:46<02:37,  3.79it/s, loss=0.585]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  72%|█████████████████████████████████████████████████████████████████████████████████████████████▍                                   | 1549/2138 [06:48<02:36,  3.76it/s, loss=0.623]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  73%|█████████████████████████████████████████████████████████████████████████████████████████████▉                                   | 1556/2138 [06:50<02:33,  3.80it/s, loss=0.597]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  73%|██████████████████████████████████████████████████████████████████████████████████████████████▎                                  | 1564/2138 [06:52<02:30,  3.80it/s, loss=0.928]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  74%|██████████████████████████████████████████████████████████████████████████████████████████████▊                                  | 1572/2138 [06:54<02:28,  3.81it/s, loss=0.606]
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  74%|███████████████████████████████████████████████████████████████████████████████████████████████▏                                 | 1578/2138 [06:55<02:26,  3.81it/s, loss=0.659]
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  74%|███████████████████████████████████████████████████████████████████████████████████████████████▋                                 | 1585/2138 [06:57<02:26,  3.78it/s, loss=0.644]
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  75%|████████████████████████████████████████████████████████████████████████████████████████████████                                 | 1593/2138 [06:59<02:23,  3.81it/s, loss=0.768]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  75%|████████████████████████████████████████████████████████████████████████████████████████████████▌                                | 1601/2138 [07:01<02:21,  3.80it/s, loss=0.603]
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  75%|█████████████████████████████████████████████████████████████████████████████████████████████████                                | 1608/2138 [07:03<02:19,  3.79it/s, loss=0.707]
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  76%|█████████████████████████████████████████████████████████████████████████████████████████████████▌                               | 1616/2138 [07:05<02:16,  3.83it/s, loss=0.816]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  76%|█████████████████████████████████████████████████████████████████████████████████████████████████▉                               | 1624/2138 [07:07<02:15,  3.79it/s, loss=0.712]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  76%|██████████████████████████████████████████████████████████████████████████████████████████████████▍                              | 1631/2138 [07:09<02:13,  3.80it/s, loss=0.624]
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  77%|██████████████████████████████████████████████████████████████████████████████████████████████████▉                              | 1639/2138 [07:11<02:12,  3.76it/s, loss=0.520]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  77%|███████████████████████████████████████████████████████████████████████████████████████████████████▎                             | 1647/2138 [07:13<02:08,  3.82it/s, loss=0.453]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  77%|███████████████████████████████████████████████████████████████████████████████████████████████████▊                             | 1655/2138 [07:16<02:07,  3.80it/s, loss=0.708]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  78%|████████████████████████████████████████████████████████████████████████████████████████████████████▎                            | 1662/2138 [07:18<02:05,  3.80it/s, loss=0.662]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  78%|████████████████████████████████████████████████████████████████████████████████████████████████████▊                            | 1670/2138 [07:20<02:03,  3.79it/s, loss=0.521]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  78%|█████████████████████████████████████████████████████████████████████████████████████████████████████▏                           | 1678/2138 [07:22<02:01,  3.79it/s, loss=1.052]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  79%|█████████████████████████████████████████████████████████████████████████████████████████████████████▋                           | 1686/2138 [07:24<01:58,  3.81it/s, loss=0.625]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  79%|██████████████████████████████████████████████████████████████████████████████████████████████████████▏                          | 1693/2138 [07:26<01:56,  3.81it/s, loss=0.615]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  80%|██████████████████████████████████████████████████████████████████████████████████████████████████████▋                          | 1701/2138 [07:28<01:54,  3.81it/s, loss=0.705]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  80%|███████████████████████████████████████████████████████████████████████████████████████████████████████                          | 1709/2138 [07:30<01:52,  3.82it/s, loss=0.720]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  80%|███████████████████████████████████████████████████████████████████████████████████████████████████████▌                         | 1717/2138 [07:32<01:49,  3.83it/s, loss=0.799]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  81%|████████████████████████████████████████████████████████████████████████████████████████████████████████                         | 1724/2138 [07:34<01:48,  3.81it/s, loss=0.769]
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  81%|████████████████████████████████████████████████████████████████████████████████████████████████████████▌                        | 1732/2138 [07:36<01:46,  3.80it/s, loss=0.566]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  81%|████████████████████████████████████████████████████████████████████████████████████████████████████████▉                        | 1740/2138 [07:38<01:44,  3.81it/s, loss=0.521]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  82%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▍                       | 1748/2138 [07:40<01:42,  3.80it/s, loss=0.759]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  82%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▉                       | 1755/2138 [07:42<01:40,  3.82it/s, loss=0.692]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  82%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▎                      | 1763/2138 [07:44<01:38,  3.82it/s, loss=0.582]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  83%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▊                      | 1771/2138 [07:46<01:36,  3.81it/s, loss=0.723]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎                     | 1778/2138 [07:48<01:34,  3.80it/s, loss=0.985]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  84%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▊                     | 1786/2138 [07:50<01:32,  3.81it/s, loss=0.709]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  84%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                    | 1794/2138 [07:52<01:30,  3.80it/s, loss=0.875]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  84%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                    | 1800/2138 [07:54<01:28,  3.81it/s, loss=0.452]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  85%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████                    | 1807/2138 [07:56<01:27,  3.80it/s, loss=0.663]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  85%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                   | 1815/2138 [07:58<01:25,  3.79it/s, loss=0.657]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  85%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                   | 1823/2138 [08:00<01:23,  3.79it/s, loss=0.667]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  86%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                  | 1831/2138 [08:02<01:20,  3.82it/s, loss=0.604]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  86%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                  | 1838/2138 [08:04<01:20,  3.71it/s, loss=0.708]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  86%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                 | 1846/2138 [08:06<01:16,  3.83it/s, loss=0.821]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  87%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                 | 1854/2138 [08:08<01:14,  3.80it/s, loss=0.655]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  87%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                | 1862/2138 [08:10<01:12,  3.79it/s, loss=0.713]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  87%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                | 1869/2138 [08:12<01:11,  3.78it/s, loss=0.750]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  88%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎               | 1877/2138 [08:14<01:08,  3.80it/s, loss=0.516]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  88%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋               | 1885/2138 [08:16<01:06,  3.80it/s, loss=0.836]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  89%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏              | 1893/2138 [08:18<01:04,  3.81it/s, loss=0.877]
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  89%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋              | 1900/2138 [08:20<01:02,  3.82it/s, loss=0.687]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  89%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████              | 1908/2138 [08:22<01:00,  3.80it/s, loss=0.575]
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  90%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌             | 1916/2138 [08:24<00:58,  3.80it/s, loss=0.658]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████             | 1923/2138 [08:26<00:56,  3.81it/s, loss=0.481]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌            | 1931/2138 [08:28<00:54,  3.79it/s, loss=0.953]
+tensor([1, 0, 0, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  91%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉            | 1939/2138 [08:30<00:52,  3.79it/s, loss=0.681]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  91%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍           | 1947/2138 [08:32<00:50,  3.79it/s, loss=0.678]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 0, 0, 0], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  91%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉           | 1954/2138 [08:34<00:48,  3.80it/s, loss=0.708]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  92%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍          | 1962/2138 [08:36<00:45,  3.83it/s, loss=0.521]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  92%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊          | 1970/2138 [08:38<00:44,  3.79it/s, loss=0.855]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  92%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎         | 1977/2138 [08:40<00:42,  3.77it/s, loss=0.698]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  93%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊         | 1985/2138 [08:42<00:40,  3.80it/s, loss=0.855]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  93%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏        | 1991/2138 [08:44<00:38,  3.84it/s, loss=0.838]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  93%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌        | 1999/2138 [08:46<00:36,  3.80it/s, loss=0.539]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  94%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████        | 2006/2138 [08:48<00:34,  3.78it/s, loss=0.492]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+
+Processing Epoch 00:  94%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌       | 2014/2138 [08:50<00:32,  3.78it/s, loss=0.715]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  95%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 2022/2138 [08:52<00:30,  3.76it/s, loss=1.078]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  95%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍      | 2030/2138 [08:54<00:28,  3.82it/s, loss=0.480]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  95%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 2037/2138 [08:56<00:26,  3.83it/s, loss=0.767]
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  96%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍     | 2045/2138 [08:58<00:24,  3.82it/s, loss=0.779]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  96%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊     | 2053/2138 [09:00<00:22,  3.81it/s, loss=0.420]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎    | 2060/2138 [09:02<00:20,  3.83it/s, loss=0.500]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:  97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊    | 2068/2138 [09:04<00:18,  3.83it/s, loss=0.752]
+tensor([0, 1, 0, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎   | 2076/2138 [09:06<00:16,  3.81it/s, loss=0.754]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋   | 2084/2138 [09:08<00:14,  3.77it/s, loss=0.728]
+tensor([1, 1, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([0, 0, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 2091/2138 [09:10<00:12,  3.78it/s, loss=0.514]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 0, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 2099/2138 [09:12<00:10,  3.81it/s, loss=0.397]
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏ | 2107/2138 [09:14<00:08,  3.82it/s, loss=0.463]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 0, 0], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([0, 0, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:  99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌ | 2115/2138 [09:16<00:06,  3.80it/s, loss=0.386]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 0, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([0, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:  99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ | 2122/2138 [09:18<00:04,  3.80it/s, loss=0.856]
+tensor([1, 0, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1, 0, 0, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([0, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1, 0, 1, 0], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌| 2130/2138 [09:20<00:02,  3.80it/s, loss=0.587]
+tensor([1, 1, 0, 0], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1, 1, 1, 0], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+Processing Epoch 00: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2138/2138 [09:22<00:00,  3.80it/s, loss=0.459]
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 44, in <module>
+    main(arguments)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 25, in main
+    train_model(config)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\train.py", line 173, in train_model
+    print(confusion_matrix(batch_iterator['label'], per_epoch_outputs))
+TypeError: 'tqdm' object is not subscriptable
+tensor([1, 0, 0, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([0, 1, 1], device='cuda:0') tensor([0, 1, 1], device='cuda:0')

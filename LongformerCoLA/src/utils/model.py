@@ -83,6 +83,7 @@ class MultiHeadAttentionBlock(nn.Module):
         
         attention_scores = (query @ key.transpose(-2, -1)) / math.sqrt(d_k)
         if mask is not None:
+
             attention_scores.masked_fill_(mask == 0, -1e9)
             
         attention_scores = attention_scores.softmax(dim=-1)
@@ -118,15 +119,14 @@ class ResidualConnection(nn.Module):
     
 class ClassificationHead(nn.Module):
     
-    def __init__(self, d_model, op_label_size):
+    def __init__(self, d_model, op_label_size, device):
         super().__init__()
-        self.proj = nn.Linear(d_model, op_label_size)
+        self.linfin = nn.Linear(d_model, 1).to(device)  # Move to device
+        self.op_label_size = op_label_size
     
-    def forward(self,x):
+    def forward(self, x):
         x = torch.mean(x, dim=1)
-        linfin = nn.Linear(768, 1)
-        x = linfin(x)
-        print(x.shape)
+        x = self.linfin(x)
         act_fun = nn.Sigmoid()
         return  act_fun(x)
     
@@ -174,36 +174,38 @@ class Longformer(nn.Module):
         return self.classification_head(x)
     
        
-def build_longformer(src_vocab_size, label_vocab_size, src_seq_len, d_model, N, h, dropout, d_ff):
-    src_embed = InputEmbeddings(d_model, src_vocab_size)
-    src_pos = PositionalEncoding(d_model, src_seq_len, dropout)
+def build_transformer(src_vocab_size, label_vocab_size, src_seq_len, d_model, N, h, dropout, d_ff,device):
+    src_embed = InputEmbeddings(d_model, src_vocab_size).to(device)
+    src_pos = PositionalEncoding(d_model, src_seq_len, dropout).to(device)
     
     
     encoder_blocks = []
     for _ in range(N):
-        encoder_self_attention = MultiHeadAttentionBlock(d_model,h,dropout)
-        encoder_block = EncoderBlock(d_model, encoder_self_attention, None, dropout)
+        encoder_self_attention = MultiHeadAttentionBlock(d_model,h,dropout).to(device)
+        encoder_block = EncoderBlock(d_model, encoder_self_attention, None, dropout).to(device)
         encoder_blocks.append(encoder_block)
 
     for _ in range(N):
-        encoder_self_attention = MultiHeadAttentionBlock(d_model,h,dropout)
-        feed_forward = FeedForwardBlock(d_model, d_ff, dropout)
-        encoder_block = EncoderBlock(d_model, encoder_self_attention, feed_forward, dropout)
+        encoder_self_attention = MultiHeadAttentionBlock(d_model,h,dropout).to(device)
+        feed_forward = FeedForwardBlock(d_model, d_ff, dropout).to(device)
+        encoder_block = EncoderBlock(d_model, encoder_self_attention, feed_forward, dropout).to(device)
         encoder_blocks.append(encoder_block)
 
     for _ in range(N):
-        feed_forward = FeedForwardBlock(d_model, d_ff, dropout)
-        encoder_block = EncoderBlock(d_model, None, feed_forward, dropout)
+        feed_forward = FeedForwardBlock(d_model, d_ff, dropout).to(device)
+        encoder_block = EncoderBlock(d_model, None, feed_forward, dropout).to(device)
         encoder_blocks.append(encoder_block)
         
-    encoder = Encoder(d_model, nn.ModuleList(encoder_blocks))
+    encoder = Encoder(d_model, nn.ModuleList(encoder_blocks)).to(device)
         
-    classification_head = ClassificationHead(d_model, label_vocab_size)
+    classification_head = ClassificationHead(d_model, label_vocab_size, device).to(device)
         
-    longformer = Longformer(encoder, src_embed, src_pos,  classification_head)
+    longformer = Longformer(encoder, src_embed, src_pos,  classification_head).to(device)
         
     for p in longformer.parameters():
         if p.dim()>1:
             nn.init.xavier_uniform_(p)
+
+    print('built')
         
     return longformer

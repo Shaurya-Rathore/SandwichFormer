@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 44, in <module>
+    main(arguments)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 25, in main
+    train_model(config)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\train.py", line 113, in train_model
+    train_dataloader, val_dataloader, tokenizer = get_ds(config).to(device)
+AttributeError: 'tuple' object has no attribute 'to'
+Max Length for sentence = 44

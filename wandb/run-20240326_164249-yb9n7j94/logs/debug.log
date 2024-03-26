@@ -1,0 +1,18 @@
+2024-03-26 16:42:49,857 INFO    MainThread:26180 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-26 16:42:49,858 INFO    MainThread:26180 [wandb_setup.py:_flush():76] Configure stats pid to 26180
+2024-03-26 16:42:49,858 INFO    MainThread:26180 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Shaurya\.config\wandb\settings
+2024-03-26 16:42:49,859 INFO    MainThread:26180 [wandb_setup.py:_flush():76] Loading settings from C:\Shaurya\Longformer2\wandb\settings
+2024-03-26 16:42:49,859 INFO    MainThread:26180 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-26 16:42:49,859 INFO    MainThread:26180 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-26 16:42:49,859 INFO    MainThread:26180 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'LongformerCoLA\\src\\trainmodel.py', 'program_abspath': 'c:\\Shaurya\\Longformer2\\LongformerCoLA\\src\\trainmodel.py', 'program': 'c:\\Shaurya\\Longformer2\\LongformerCoLA\\src\\trainmodel.py'}
+2024-03-26 16:42:49,860 INFO    MainThread:26180 [wandb_init.py:_log_setup():526] Logging user logs to C:\Shaurya\Longformer2\wandb\run-20240326_164249-yb9n7j94\logs\debug.log
+2024-03-26 16:42:49,860 INFO    MainThread:26180 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Shaurya\Longformer2\wandb\run-20240326_164249-yb9n7j94\logs\debug-internal.log
+2024-03-26 16:42:49,860 INFO    MainThread:26180 [wandb_init.py:init():566] calling init triggers
+2024-03-26 16:42:49,860 INFO    MainThread:26180 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'architecture': 'BERT(Restructured)', 'dataset': 'CoLA', 'epochs': 6}
+2024-03-26 16:42:49,860 INFO    MainThread:26180 [wandb_init.py:init():616] starting backend
+2024-03-26 16:42:49,860 INFO    MainThread:26180 [wandb_init.py:init():620] setting up manager
+2024-03-26 16:42:49,863 INFO    MainThread:26180 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-26 16:42:49,869 INFO    MainThread:26180 [wandb_init.py:init():628] backend started and connected
+2024-03-26 16:42:49,875 INFO    MainThread:26180 [wandb_init.py:init():720] updated telemetry
+2024-03-26 16:42:50,092 INFO    MainThread:26180 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
