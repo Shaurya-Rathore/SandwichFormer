@@ -1,0 +1,69 @@
+Max Length for sentence = 44
+built
+Processing Epoch 00:   0%|                                                                                                                                                            | 0/2138 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 67, in <module>
+    main(arguments)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 25, in main
+    train_model(config)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\train.py", line 173, in train_model
+    loss = loss_fn(classification_output, label)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\loss.py", line 618, in forward
+    return F.binary_cross_entropy(input, target, weight=self.weight, reduction=self.reduction)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\functional.py", line 3118, in binary_cross_entropy
+    raise ValueError(
+ValueError: Using a target size (torch.Size([4])) that is different to the input size (torch.Size([512, 4, 1])) is deprecated. Please ensure they have the same size.
+tensor([[[0],
+         [0],
+         [0],
+         [0]],
+        [[0],
+         [1],
+         [0],
+         [0]],
+        [[0],
+         [0],
+         [0],
+         [1]],
+        ...,
+        [[0],
+         [0],
+         [0],
+         [0]],
+        [[0],
+         [0],
+         [0],
+         [0]],
+        [[0],
+         [0],
+         [0],
+         [0]]], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([[[0.3267],
+         [0.4653],
+         [0.3151],
+         [0.0362]],
+        [[0.3778],
+         [0.7956],
+         [0.1023],
+         [0.2007]],
+        [[0.3946],
+         [0.4740],
+         [0.4874],
+         [0.5922]],
+        ...,
+        [[0.2813],
+         [0.1451],
+         [0.3884],
+         [0.1609]],
+        [[0.2732],
+         [0.2368],
+         [0.2680],
+         [0.1758]],
+        [[0.4032],
+         [0.2714],
+         [0.4340],
+         [0.0482]]], device='cuda:0', grad_fn=<SqueezeBackward1>)

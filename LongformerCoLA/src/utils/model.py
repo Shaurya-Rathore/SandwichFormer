@@ -126,6 +126,7 @@ class ClassificationHead(nn.Module):
     
     def forward(self, x):
         x = torch.mean(x, dim=1)
+        print(x.size)
         x = self.linfin(x)
         act_fun = nn.Sigmoid()
         return  act_fun(x)
@@ -157,7 +158,7 @@ class Encoder(nn.Module):
             x = layer(x, mask)
         return self.norm(x)
     
-class Longformer(nn.Module):
+class Transformer(nn.Module):
     def __init__(self, encoder, src_embed, src_pos, classification_head):
         super().__init__()
         self.src_embed = src_embed
@@ -200,12 +201,12 @@ def build_transformer(src_vocab_size, label_vocab_size, src_seq_len, d_model, N,
         
     classification_head = ClassificationHead(d_model, label_vocab_size, device).to(device)
         
-    longformer = Longformer(encoder, src_embed, src_pos,  classification_head).to(device)
+    transformer = Transformer(encoder, src_embed, src_pos,  classification_head).to(device)
         
-    for p in longformer.parameters():
+    for p in transformer.parameters():
         if p.dim()>1:
             nn.init.xavier_uniform_(p)
 
     print('built')
         
-    return longformer
+    return transformer

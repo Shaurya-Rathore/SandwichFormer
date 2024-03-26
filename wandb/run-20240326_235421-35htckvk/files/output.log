@@ -1,0 +1,78 @@
+Max Length for sentence = 44
+built
+Processing Epoch 00:   0%|                                                                                                                                                            | 0/2138 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\nltk\corpus\util.py", line 84, in __load
+    root = nltk.data.find(f"{self.subdir}/{zip_name}")
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\nltk\data.py", line 583, in find
+    raise LookupError(resource_not_found)
+LookupError:
+**********************************************************************
+  Resource [93mwordnet[39m not found.
+  Please use the NLTK Downloader to obtain the resource:
+  [31m>>> import nltk
+[31m  >>> nltk.download('wordnet')
+[31m  
+  For more information see: https://www.nltk.org/data.html
+  Attempted to load [93mcorpora/wordnet.zip/wordnet/
+  Searched in:
+    - 'C:\\Users\\Shaurya/nltk_data'
+    - 'C:\\Users\\Shaurya\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Shaurya\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Shaurya\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Shaurya\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 67, in <module>
+    main(arguments)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 25, in main
+    train_model(config)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\train.py", line 153, in train_model
+    for batch in batch_iterator:
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\dataset.py", line 42, in __getitem__
+    lemmatized_tokens = [lemmatizer.lemmatize(token) for token in tokens]
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\dataset.py", line 42, in <listcomp>
+    lemmatized_tokens = [lemmatizer.lemmatize(token) for token in tokens]
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\nltk\stem\wordnet.py", line 45, in lemmatize
+    lemmas = wn._morphy(word, pos)
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\nltk\corpus\util.py", line 121, in __getattr__
+    self.__load()
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\nltk\corpus\util.py", line 86, in __load
+    raise e
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\nltk\corpus\util.py", line 81, in __load
+    root = nltk.data.find(f"{self.subdir}/{self.__name}")
+  File "C:\Users\Shaurya\AppData\Local\Programs\Python\Python39\lib\site-packages\nltk\data.py", line 583, in find
+    raise LookupError(resource_not_found)
+LookupError:
+**********************************************************************
+  Resource [93mwordnet[39m not found.
+  Please use the NLTK Downloader to obtain the resource:
+  [31m>>> import nltk
+[31m  >>> nltk.download('wordnet')
+[31m  
+  For more information see: https://www.nltk.org/data.html
+  Attempted to load [93mcorpora/wordnet
+  Searched in:
+    - 'C:\\Users\\Shaurya/nltk_data'
+    - 'C:\\Users\\Shaurya\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Shaurya\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Shaurya\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Shaurya\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************

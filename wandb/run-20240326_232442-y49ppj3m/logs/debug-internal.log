@@ -1,0 +1,611 @@
+2024-03-26 23:24:42,064 INFO    StreamThr :24292 [internal.py:wandb_internal():86] W&B internal server running at pid: 24292, started at: 2024-03-26 23:24:42.063334
+2024-03-26 23:24:42,065 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status
+2024-03-26 23:24:42,068 INFO    WriterThread:24292 [datastore.py:open_for_write():87] open: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\run-y49ppj3m.wandb
+2024-03-26 23:24:42,068 DEBUG   SenderThread:24292 [sender.py:send():378] send: header
+2024-03-26 23:24:42,247 DEBUG   SenderThread:24292 [sender.py:send():378] send: run
+2024-03-26 23:24:43,123 INFO    SenderThread:24292 [dir_watcher.py:__init__():211] watching files in: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files
+2024-03-26 23:24:43,123 INFO    SenderThread:24292 [sender.py:_start_run_threads():1099] run started: y49ppj3m with start time 1711475682.065338
+2024-03-26 23:24:43,136 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: check_version
+2024-03-26 23:24:43,136 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: check_version
+2024-03-26 23:24:43,311 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: run_start
+2024-03-26 23:24:44,570 DEBUG   HandlerThread:24292 [system_info.py:__init__():26] System info init
+2024-03-26 23:24:44,570 DEBUG   HandlerThread:24292 [system_info.py:__init__():41] System info init done
+2024-03-26 23:24:44,570 INFO    HandlerThread:24292 [system_monitor.py:start():194] Starting system monitor
+2024-03-26 23:24:44,571 INFO    SystemMonitor:24292 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-26 23:24:44,572 INFO    HandlerThread:24292 [system_monitor.py:probe():214] Collecting system info
+2024-03-26 23:24:44,577 INFO    SystemMonitor:24292 [interfaces.py:start():190] Started cpu monitoring
+2024-03-26 23:24:44,578 INFO    SystemMonitor:24292 [interfaces.py:start():190] Started disk monitoring
+2024-03-26 23:24:44,579 INFO    SystemMonitor:24292 [interfaces.py:start():190] Started gpu monitoring
+2024-03-26 23:24:44,586 INFO    SystemMonitor:24292 [interfaces.py:start():190] Started memory monitoring
+2024-03-26 23:24:44,596 INFO    SystemMonitor:24292 [interfaces.py:start():190] Started network monitoring
+2024-03-26 23:24:44,600 DEBUG   HandlerThread:24292 [system_info.py:probe():150] Probing system
+2024-03-26 23:24:44,601 DEBUG   HandlerThread:24292 [system_info.py:_probe_git():135] Probing git
+2024-03-26 23:24:44,703 DEBUG   HandlerThread:24292 [system_info.py:_probe_git():143] Probing git done
+2024-03-26 23:24:44,703 DEBUG   HandlerThread:24292 [system_info.py:probe():198] Probing system done
+2024-03-26 23:24:44,703 DEBUG   HandlerThread:24292 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-03-26T17:54:44.600805', 'startedAt': '2024-03-26T17:54:42.047790', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Shaurya\\Longformer2\\LongformerCoLA\\src\\trainmodel.py', 'codePathLocal': 'LongformerCoLA\\src\\trainmodel.py', 'codePath': 'LongformerCoLA\\src\\trainmodel.py', 'git': {'remote': 'https://github.com/Wackyjac/mrmlongformer2.git', 'commit': '2330138472acaaafb7f7c0facdf61c7bcbde2848'}, 'email': '140714862+Wackyjac@users.noreply.github.com', 'root': 'C:/Shaurya/Longformer2', 'host': 'MSI', 'username': 'Shaurya', 'executable': 'C:\\Users\\Shaurya\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2304.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 2304.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'/': {'total': 456.09569931030273, 'used': 356.5709800720215}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.708507537841797}}
+2024-03-26 23:24:44,703 INFO    HandlerThread:24292 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-26 23:24:44,703 INFO    HandlerThread:24292 [system_monitor.py:probe():227] Publishing system info
+2024-03-26 23:24:44,705 INFO    HandlerThread:24292 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-26 23:24:44,720 DEBUG   SenderThread:24292 [sender.py:send():378] send: files
+2024-03-26 23:24:44,720 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-26 23:24:44,882 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-26 23:24:44,883 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: python_packages
+2024-03-26 23:24:44,883 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-26 23:24:44,885 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: stop_status
+2024-03-26 23:24:44,887 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-26 23:24:45,133 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-metadata.json
+2024-03-26 23:24:45,133 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\requirements.txt
+2024-03-26 23:24:45,422 DEBUG   SenderThread:24292 [sender.py:send():378] send: telemetry
+2024-03-26 23:24:46,042 INFO    wandb-upload_0:24292 [upload_job.py:push():131] Uploaded file C:\Users\Shaurya\AppData\Local\Temp\tmpo08qx1wpwandb\tvaiclq5-wandb-metadata.json
+2024-03-26 23:24:47,435 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:24:52,465 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:24:57,512 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:24:59,901 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-26 23:24:59,901 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: stop_status
+2024-03-26 23:24:59,902 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-26 23:25:03,254 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:08,306 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:13,364 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:14,405 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\config.yaml
+2024-03-26 23:25:14,919 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-26 23:25:14,925 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-26 23:25:14,926 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: stop_status
+2024-03-26 23:25:19,382 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:24,444 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:29,486 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:29,921 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-26 23:25:29,937 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-26 23:25:29,937 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: stop_status
+2024-03-26 23:25:35,349 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:38,677 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:39,718 DEBUG   SenderThread:24292 [sender.py:send():378] send: telemetry
+2024-03-26 23:25:40,223 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:40,226 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:40,226 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:40,229 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:40,486 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:40,604 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:40,605 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:40,605 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:40,606 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:40,692 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:40,692 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:40,932 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:40,933 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:40,933 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:40,934 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:41,260 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:41,261 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:41,261 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:41,262 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:41,588 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:41,588 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:41,589 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:41,589 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:41,693 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:41,919 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:41,920 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:41,920 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:41,921 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:42,249 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:42,249 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:42,250 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:42,250 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:42,579 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:42,580 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:42,580 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:42,581 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:42,704 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:42,705 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:42,909 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:42,910 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:42,910 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:42,910 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:43,239 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:43,240 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:43,240 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:43,241 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:43,570 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:43,571 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:43,571 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:43,572 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:43,706 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:43,902 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:43,902 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:43,904 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:43,905 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:44,232 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:44,233 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:44,234 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:44,234 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:44,563 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:44,563 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:44,564 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:44,565 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:44,607 DEBUG   SystemMonitor:24292 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-26 23:25:44,607 DEBUG   SenderThread:24292 [sender.py:send():378] send: stats
+2024-03-26 23:25:44,718 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:44,719 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:44,895 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:44,896 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:44,896 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:44,897 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:44,937 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-26 23:25:44,937 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-26 23:25:44,938 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: stop_status
+2024-03-26 23:25:45,223 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:45,332 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:45,332 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:45,333 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:45,552 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:45,553 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:45,723 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:45,883 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:45,885 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:45,885 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:45,885 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:45,886 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:45,886 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:45,886 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:46,214 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:46,216 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:46,216 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:46,217 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:46,545 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:46,546 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:46,546 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:46,547 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:46,732 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\config.yaml
+2024-03-26 23:25:46,733 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:46,733 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:46,875 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:46,875 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:46,875 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:46,876 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:47,207 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:47,208 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:47,208 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:47,209 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:47,536 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:47,537 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:47,537 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:47,538 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:47,746 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:47,867 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:47,868 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:47,868 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:47,869 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:48,198 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:48,199 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:48,199 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:48,200 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:48,530 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:48,538 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:48,538 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:48,539 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:48,751 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:48,752 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:48,861 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:48,862 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:48,862 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:48,863 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:49,191 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:49,191 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:49,192 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:49,193 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:49,523 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:49,523 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:49,523 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:49,525 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:49,761 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:49,854 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:49,855 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:49,855 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:49,856 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:50,186 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:50,187 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:50,187 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:50,188 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:50,517 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:50,518 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:50,518 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:50,519 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:50,775 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:50,776 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:50,848 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:50,849 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:50,849 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:50,850 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:51,082 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:51,179 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:51,179 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:51,180 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:51,181 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:51,510 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:51,511 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:51,511 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:51,512 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:51,784 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:51,841 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:51,842 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:51,842 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:51,843 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:52,173 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:52,173 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:52,174 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:52,174 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:52,505 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:52,507 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:52,507 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:52,508 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:52,794 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:52,795 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:52,837 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:52,838 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:52,839 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:52,839 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:53,173 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:53,174 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:53,175 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:53,175 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:53,505 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:53,507 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:53,508 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:53,508 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:53,808 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:53,837 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:53,838 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:53,838 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:53,838 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:54,170 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:54,170 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:54,170 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:54,171 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:54,501 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:54,502 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:54,502 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:54,503 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:54,821 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:54,822 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:54,832 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:54,833 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:54,833 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:54,834 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:55,164 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:55,165 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:55,165 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:55,165 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:55,498 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:55,499 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:55,499 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:55,500 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:55,830 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:55,831 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:55,831 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:55,832 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:55,833 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:56,158 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:25:56,161 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:56,162 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:56,162 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:56,163 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:56,495 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:56,496 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:56,496 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:56,497 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:56,829 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:56,830 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:56,830 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:56,832 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:56,847 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:56,847 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:57,162 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:57,164 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:57,164 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:57,164 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:57,493 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:57,493 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:57,494 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:57,494 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:57,826 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:57,827 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:57,827 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:57,828 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:57,856 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:58,158 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:58,159 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:58,159 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:58,160 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:58,490 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:58,490 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:58,490 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:58,492 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:58,822 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:58,823 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:58,823 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:58,824 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:58,869 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:25:58,869 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:59,154 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:59,155 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:59,155 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:59,155 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:59,488 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:59,489 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:59,490 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:59,491 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:59,823 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:25:59,824 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:25:59,824 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:25:59,825 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:25:59,883 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:25:59,928 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-26 23:25:59,928 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: stop_status
+2024-03-26 23:25:59,943 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-26 23:26:00,156 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:00,338 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:00,339 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:00,340 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:00,490 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:00,491 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:00,491 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:00,491 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:00,822 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:00,823 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:00,823 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:00,824 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:00,892 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:26:00,892 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:01,154 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:01,154 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:01,154 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:01,155 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:01,177 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:26:01,487 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:01,497 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:01,497 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:01,498 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:01,822 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:01,823 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:01,823 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:01,824 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:01,900 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:02,155 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:02,155 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:02,156 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:02,156 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:02,490 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:02,491 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:02,491 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:02,492 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:02,824 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:02,826 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:02,826 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:02,827 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:02,913 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:26:02,913 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:03,156 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:03,157 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:03,157 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:03,158 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:03,492 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:03,492 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:03,492 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:03,493 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:03,825 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:03,825 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:03,825 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:03,826 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:03,913 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:04,157 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:04,158 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:04,158 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:04,159 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:04,492 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:04,493 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:04,494 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:04,494 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:04,829 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:04,830 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:04,830 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:04,832 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:04,923 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:26:04,923 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:05,165 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:05,166 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:05,166 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:05,167 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:05,498 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:05,499 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:05,499 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:05,500 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:05,832 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:05,841 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:05,841 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:05,842 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:05,932 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:06,166 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:06,167 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:06,167 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:06,168 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:06,186 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:26:06,499 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:06,500 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:06,500 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:06,500 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:06,833 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:06,835 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:06,835 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:06,836 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:06,934 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:26:06,934 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:07,169 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:07,170 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:07,170 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:07,171 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:07,506 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:07,507 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:07,508 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:07,509 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:07,839 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:07,840 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:07,840 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:07,841 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:07,944 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:08,174 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:08,175 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:08,175 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:08,175 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:08,507 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-26 23:26:08,508 DEBUG   SenderThread:24292 [sender.py:send():378] send: history
+2024-03-26 23:26:08,508 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: summary_record
+2024-03-26 23:26:08,509 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:08,842 DEBUG   SenderThread:24292 [sender.py:send():378] send: exit
+2024-03-26 23:26:08,842 INFO    SenderThread:24292 [sender.py:send_exit():585] handling exit code: 255
+2024-03-26 23:26:08,842 INFO    SenderThread:24292 [sender.py:send_exit():587] handling runtime: 85
+2024-03-26 23:26:08,843 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:08,843 INFO    SenderThread:24292 [sender.py:send_exit():593] send defer
+2024-03-26 23:26:08,844 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:08,844 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-26 23:26:08,844 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:08,844 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-26 23:26:08,844 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 1
+2024-03-26 23:26:08,844 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:08,844 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-26 23:26:08,844 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:08,844 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-26 23:26:08,844 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 2
+2024-03-26 23:26:08,845 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:08,845 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-26 23:26:08,845 INFO    HandlerThread:24292 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-26 23:26:08,845 DEBUG   SystemMonitor:24292 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-26 23:26:08,845 INFO    HandlerThread:24292 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-26 23:26:08,851 DEBUG   SystemMonitor:24292 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-26 23:26:08,852 INFO    HandlerThread:24292 [interfaces.py:finish():202] Joined disk monitor
+2024-03-26 23:26:08,888 INFO    HandlerThread:24292 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-26 23:26:08,888 INFO    HandlerThread:24292 [interfaces.py:finish():202] Joined memory monitor
+2024-03-26 23:26:08,888 INFO    HandlerThread:24292 [interfaces.py:finish():202] Joined network monitor
+2024-03-26 23:26:08,889 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:08,889 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-26 23:26:08,889 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 3
+2024-03-26 23:26:08,889 DEBUG   SenderThread:24292 [sender.py:send():378] send: stats
+2024-03-26 23:26:08,889 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:08,889 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-26 23:26:08,889 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:08,889 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-26 23:26:08,890 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 4
+2024-03-26 23:26:08,890 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:08,890 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-26 23:26:08,890 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:08,890 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-26 23:26:08,890 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 5
+2024-03-26 23:26:08,890 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:08,890 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-26 23:26:08,890 DEBUG   SenderThread:24292 [sender.py:send():378] send: summary
+2024-03-26 23:26:08,891 INFO    SenderThread:24292 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-26 23:26:08,891 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:08,891 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-26 23:26:08,891 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 6
+2024-03-26 23:26:08,892 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:08,892 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-26 23:26:08,892 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:08,892 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-26 23:26:08,892 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 7
+2024-03-26 23:26:08,892 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:26:08,892 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:08,892 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-26 23:26:08,892 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:08,892 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-26 23:26:08,952 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:26:08,952 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:09,852 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-26 23:26:10,972 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:26:12,065 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 8
+2024-03-26 23:26:12,073 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: poll_exit
+2024-03-26 23:26:12,073 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:12,073 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-26 23:26:12,073 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:12,074 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-26 23:26:12,074 INFO    SenderThread:24292 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-26 23:26:12,074 INFO    SenderThread:24292 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-26 23:26:12,116 INFO    SenderThread:24292 [job_builder.py:build():404] adding wandb-job metadata file
+2024-03-26 23:26:12,126 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 9
+2024-03-26 23:26:12,126 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:12,126 DEBUG   SenderThread:24292 [sender.py:send():378] send: artifact
+2024-03-26 23:26:12,126 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-26 23:26:12,888 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-26 23:26:12,997 INFO    Thread-16 :24292 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:26:14,203 INFO    wandb-upload_0:24292 [upload_job.py:push():86] Skipped uploading C:\Users\Shaurya\AppData\Local\wandb\wandb\artifacts\staging\tmpj38hdikf
+2024-03-26 23:26:14,640 INFO    wandb-upload_1:24292 [upload_job.py:push():89] Uploaded file C:\Users\Shaurya\AppData\Local\wandb\wandb\artifacts\staging\tmp2d761ecl
+2024-03-26 23:26:16,917 INFO    SenderThread:24292 [sender.py:send_artifact():1443] sent artifact job-https___github.com_Wackyjac_mrmlongformer2.git_LongformerCoLA_src_trainmodel.py - {'id': 'QXJ0aWZhY3Q6NzcxNzIxMTEw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MjI4MDI5Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzcxNjk5NDI3', 'versionIndex': 8}}}
+2024-03-26 23:26:16,917 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:16,917 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-26 23:26:16,917 INFO    SenderThread:24292 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-26 23:26:17,044 INFO    SenderThread:24292 [dir_watcher.py:finish():388] scan: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files
+2024-03-26 23:26:17,045 INFO    SenderThread:24292 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\config.yaml config.yaml
+2024-03-26 23:26:17,045 INFO    SenderThread:24292 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log output.log
+2024-03-26 23:26:17,045 INFO    SenderThread:24292 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\requirements.txt requirements.txt
+2024-03-26 23:26:17,047 INFO    SenderThread:24292 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-metadata.json wandb-metadata.json
+2024-03-26 23:26:17,047 INFO    SenderThread:24292 [dir_watcher.py:finish():402] scan save: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json wandb-summary.json
+2024-03-26 23:26:17,050 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 10
+2024-03-26 23:26:17,050 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: poll_exit
+2024-03-26 23:26:17,050 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:17,051 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-26 23:26:17,052 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:17,053 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-26 23:26:17,053 INFO    SenderThread:24292 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-26 23:26:17,876 INFO    wandb-upload_0:24292 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\config.yaml
+2024-03-26 23:26:17,943 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-26 23:26:17,943 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-26 23:26:17,943 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: poll_exit
+2024-03-26 23:26:17,944 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: status_report
+2024-03-26 23:26:18,121 INFO    wandb-upload_2:24292 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\requirements.txt
+2024-03-26 23:26:18,405 INFO    wandb-upload_1:24292 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\output.log
+2024-03-26 23:26:18,952 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-26 23:26:18,953 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: poll_exit
+2024-03-26 23:26:19,221 INFO    wandb-upload_3:24292 [upload_job.py:push():131] Uploaded file C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\files\wandb-summary.json
+2024-03-26 23:26:19,432 INFO    Thread-15 :24292 [sender.py:transition_state():613] send defer: 11
+2024-03-26 23:26:19,432 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:19,432 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-26 23:26:19,433 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:19,433 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-26 23:26:19,433 INFO    SenderThread:24292 [file_pusher.py:join():178] waiting for file pusher
+2024-03-26 23:26:19,434 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 12
+2024-03-26 23:26:19,434 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:19,434 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-26 23:26:19,434 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:19,434 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-26 23:26:19,434 INFO    SenderThread:24292 [file_stream.py:finish():595] file stream finish called
+2024-03-26 23:26:19,776 INFO    SenderThread:24292 [file_stream.py:finish():599] file stream finish is done
+2024-03-26 23:26:19,776 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 13
+2024-03-26 23:26:19,776 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:19,776 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-26 23:26:19,776 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:19,776 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-26 23:26:19,777 INFO    SenderThread:24292 [sender.py:transition_state():613] send defer: 14
+2024-03-26 23:26:19,777 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: defer
+2024-03-26 23:26:19,777 INFO    HandlerThread:24292 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-26 23:26:19,777 DEBUG   SenderThread:24292 [sender.py:send():378] send: final
+2024-03-26 23:26:19,777 DEBUG   SenderThread:24292 [sender.py:send():378] send: footer
+2024-03-26 23:26:19,777 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: defer
+2024-03-26 23:26:19,777 INFO    SenderThread:24292 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-26 23:26:19,778 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-26 23:26:19,779 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-26 23:26:19,779 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: poll_exit
+2024-03-26 23:26:19,779 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: server_info
+2024-03-26 23:26:19,779 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: poll_exit
+2024-03-26 23:26:19,780 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-26 23:26:19,780 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: server_info
+2024-03-26 23:26:19,781 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-26 23:26:19,783 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-26 23:26:19,784 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: job_info
+2024-03-26 23:26:20,100 DEBUG   SenderThread:24292 [sender.py:send_request():405] send_request: job_info
+2024-03-26 23:26:20,101 INFO    MainThread:24292 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-26 23:26:20,101 INFO    MainThread:24292 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-26 23:26:20,102 INFO    MainThread:24292 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-26 23:26:20,104 DEBUG   HandlerThread:24292 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-26 23:26:20,104 INFO    HandlerThread:24292 [handler.py:finish():869] shutting down handler
+2024-03-26 23:26:20,785 INFO    WriterThread:24292 [datastore.py:close():296] close: C:\Shaurya\Longformer2\wandb\run-20240326_232442-y49ppj3m\run-y49ppj3m.wandb
+2024-03-26 23:26:21,111 INFO    SenderThread:24292 [sender.py:finish():1521] shutting down sender
+2024-03-26 23:26:21,111 INFO    SenderThread:24292 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-26 23:26:21,112 INFO    SenderThread:24292 [file_pusher.py:join():178] waiting for file pusher

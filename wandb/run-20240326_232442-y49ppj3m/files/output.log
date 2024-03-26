@@ -1,0 +1,286 @@
+Max Length for sentence = 44
+built
+Processing Epoch 00:   0%|▎                                                                                                                                       | 4/2138 [00:01<11:29,  3.10it/s, loss=0.000]
+<built-in method size of Tensor object at 0x000001D83DD485E0>
+tensor([0, 0, 1, 0], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([0.3471, 0.2168, 0.5239, 0.4001], device='cuda:0',
+       grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD45270>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5AF90>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83C17CAE0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD459F0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83BB57AE0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   0%|▋                                                                                                                                     | 10/2138 [00:03<11:43,  3.02it/s, loss=50.000]
+<built-in method size of Tensor object at 0x000001D83DD48950>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD48720>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD45900>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5C130>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD48720>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5DEA0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   1%|█                                                                                                                                     | 16/2138 [00:05<11:41,  3.02it/s, loss=25.000]
+<built-in method size of Tensor object at 0x000001D83DD5C4F0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD48950>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD456D0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5C270>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD48D10>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD47EA0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   1%|█▍                                                                                                                                    | 23/2138 [00:07<11:38,  3.03it/s, loss=25.000]
+<built-in method size of Tensor object at 0x000001D83DD5C3B0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83C27F1D0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD47950>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5DE00>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5DA90>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5D950>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+
+Processing Epoch 00:   1%|█▊                                                                                                                                    | 29/2138 [00:09<11:38,  3.02it/s, loss=25.000]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5DB80>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5C630>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD48D10>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5DB80>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5CDB0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+
+Processing Epoch 00:   2%|██▏                                                                                                                                   | 35/2138 [00:11<11:35,  3.02it/s, loss=25.000]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5DF90>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD5CDB0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD48590>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68360>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF708B0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68180>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   2%|██▌                                                                                                                                   | 41/2138 [00:13<11:38,  3.00it/s, loss=25.000]
+<built-in method size of Tensor object at 0x000001D83DF70AE0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68950>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF700E0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68590>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68B30>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF687C0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+
+Processing Epoch 00:   2%|██▉                                                                                                                                   | 47/2138 [00:15<11:35,  3.01it/s, loss=50.000]
+<built-in method size of Tensor object at 0x000001D83DF68400>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF687C0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68310>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68540>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68D60>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68220>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+
+Processing Epoch 00:   3%|███▍                                                                                                                                  | 54/2138 [00:17<11:32,  3.01it/s, loss=25.000]
+<built-in method size of Tensor object at 0x000001D83DF68F40>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68EA0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF684A0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 0, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD47220>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD566D0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF684A0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+
+Processing Epoch 00:   3%|███▊                                                                                                                                   | 60/2138 [00:19<11:29,  3.01it/s, loss=0.000]
+<built-in method size of Tensor object at 0x000001D83DD478B0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD56450>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68EA0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD47B30>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD56450>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF6F540>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+
+Processing Epoch 00:   3%|████▏                                                                                                                                  | 66/2138 [00:21<11:31,  3.00it/s, loss=0.000]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF6FE00>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70F40>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF6FC20>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70090>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70630>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+
+Processing Epoch 00:   3%|████▌                                                                                                                                  | 72/2138 [00:23<11:26,  3.01it/s, loss=0.000]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70B80>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF709F0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70130>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70A40>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70770>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+
+Processing Epoch 00:   4%|████▊                                                                                                                                  | 77/2138 [00:25<11:26,  3.00it/s, loss=0.000]
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70C20>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF707C0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF709F0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD56810>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 1], device='cuda:0')
+
+Processing Epoch 00:   4%|█████▏                                                                                                                                | 83/2138 [00:27<11:35,  2.96it/s, loss=25.000]
+<built-in method size of Tensor object at 0x000001D83DF68040>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 1, 0, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD584F0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70090>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF68DB0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DD58B30>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF70E50>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 0, 0], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+Processing Epoch 00:   4%|█████▍                                                                                                                                | 86/2138 [00:28<11:30,  2.97it/s, loss=75.000]
+Traceback (most recent call last):
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 67, in <module>
+    main(arguments)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\trainmodel.py", line 25, in main
+    train_model(config)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\train.py", line 165, in train_model
+    output = threshold(classification_output, 0.5)
+  File "c:\Shaurya\Longformer2\LongformerCoLA\src\utils\train.py", line 120, in threshold
+    return torch.where(tensor > threshold_value, torch.tensor(1), torch.tensor(0))
+KeyboardInterrupt
+tensor([1, 1, 1, 1], device='cuda:0') tensor([1, 1, 1, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF659A0>
+tensor([1, 1, 1, 1], device='cuda:0') tensor([0, 0, 0, 1], device='cuda:0')
+tensor([1., 1., 1., 1.], device='cuda:0', grad_fn=<SqueezeBackward1>)
+<built-in method size of Tensor object at 0x000001D83DF6F9F0>
