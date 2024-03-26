@@ -74,9 +74,11 @@ def validate(model, dataloader, device):
     model.eval()
     correct_predictions = 0
     total_predictions = 0
-
+    output_all = []
+    labels_all = []
+    
     with torch.no_grad():
-        
+
         for batch in dataloader:
             input_ids = batch["encoder_input"].to(device)
             attention_mask = batch["encoder_mask"].to(device)
@@ -87,10 +89,15 @@ def validate(model, dataloader, device):
             classification_output = torch.squeeze(classification_output, dim=0)
 
             output = threshold(classification_output, 0.5)
-
+            output_np = output.cpu().detach().numpy()
+            label_np = label.cpu().detach().numpy()
+            output_all.extend(output_np)
+            labels_all.extend(label_np)
             correct_predictions += (output == label).sum().item()
             total_predictions += label.size(0)
-
+        
+        print(f1_score(labels_all,output_all))
+        print(confusion_matrix(labels_all,output_all))
             
     model.train()
     return correct_predictions / total_predictions * 100.0

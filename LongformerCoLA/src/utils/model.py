@@ -126,7 +126,6 @@ class ClassificationHead(nn.Module):
     
     def forward(self, x):
         x = torch.mean(x, dim=1)
-        print(x.size)
         x = self.linfin(x)
         act_fun = nn.Sigmoid()
         return  act_fun(x)

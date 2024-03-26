@@ -25,8 +25,6 @@ class CoLADataset(Dataset):
     
     def __getitem__(self, index):
         lemmatizer = WordNetLemmatizer()
-        nltk.download('punkt')
-        nltk.download('wordnet')
 
         pair = self.ds[index]
         src_text = pair["sentence"]
