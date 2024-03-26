@@ -10,7 +10,7 @@ from datasets import load_dataset
 from pathlib import Path
 from utils.dataset import CoLADataset
 from utils.model import build_transformer
-from utils.config import get_weights_path, get_config
+from utils.config import get_weights_path
 from tqdm import tqdm
 from torch.optim.lr_scheduler import ExponentialLR
 import wandb
@@ -77,11 +77,11 @@ def validate(model, dataloader, device):
 
     with torch.no_grad():
         for batch in dataloader:
-            input_ids = batch["input_ids"].to(device)
-            attention_mask = batch["attention_mask"].to(device)
-            labels = batch["labels"].to(device)
-            outputs = model.encode(input_ids, attention_mask=attention_mask)
-            classification_output = model.project(outputs) # (B, 1, label_size)
+            input_ids = batch["encoder_input"].to(device)
+            attention_mask = batch["encoder_mask"].to(device)
+            labels = batch["label"].to(device)
+            outputs = model.encode(input_ids, attention_mask)
+            classification_output = model.project(outputs)
             classification_output = classification_output.transpose(0, 1)
             classification_output = torch.squeeze(classification_output, dim=0)
 
@@ -174,9 +174,11 @@ def train_model(config):
 
             global_step += 1
 
-        print(confusion_matrix(per_epoch_labels, per_epoch_outputs))
+        #print(confusion_matrix(per_epoch_labels, per_epoch_outputs))
         val_accuracy = validate(model, val_dataloader, device)        
         
+
+
         if val_accuracy >= best_val_accuracy:
             best_val_accuracy = val_accuracy
             model_filename = get_weights_path(config, f'{epoch:02d}')
