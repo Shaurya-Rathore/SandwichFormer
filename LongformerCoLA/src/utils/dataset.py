@@ -6,10 +6,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import string
-import nltk
-import os
-from nltk.stem import WordNetLemmatizer
-# Ensure WordNet is available (and cached in a known place)
+
 
 class CoLADataset(Dataset):
     
@@ -26,26 +23,26 @@ class CoLADataset(Dataset):
     def __len__(self):
         return len(self.ds)
     
-    def __getitem__(self, index):    
-        lemmatizer = WordNetLemmatizer()
+    def __getitem__(self, index):
+        # lemmatizer = WordNetLemmatizer()
 
         pair = self.ds[index]
         src_text = pair["sentence"]
         src_label = pair['label']
 
-        text = src_text.lower()
+        #text = src_text.lower()
     
     
-        text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
+        #text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
     
         # Tokenize the text into words
-        tokens = word_tokenize(text)
+        #tokens = word_tokenize(text)
     
         # Lemmatize the words
-        lemmatized_tokens = [lemmatizer.lemmatize(token) for token in tokens]
+        #lemmatized_tokens = [lemmatizer.lemmatize(token) for token in tokens]
     
         # Join the lemmatized tokens back into a single string
-        src_text = ' '.join(lemmatized_tokens)
+        #src_text = ' '.join(lemmatized_tokens)
         
         input_tokens = self.tokenizer.encode(src_text).ids
         
