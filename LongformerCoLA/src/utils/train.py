@@ -198,6 +198,8 @@ def train_model(config):
 
 
         if val_accuracy >= best_val_accuracy:
+            Path(config['model_folder']).mkdir(parents=True, exist_ok=True)
+            
             best_val_accuracy = val_accuracy
             model_filename = get_weights_path(config, f'{epoch:02d}')
             torch.save({
