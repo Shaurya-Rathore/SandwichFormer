@@ -1,4 +1,7 @@
 import torch
+import nltk
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
@@ -17,6 +20,7 @@ import wandb
 from sklearn.metrics import confusion_matrix, f1_score
 
 ##get wandb here
+
 wandb.init(
     # set the wandb project where this run will be logged
     project="SandwichFormer - CoLA",
