@@ -9,7 +9,6 @@ import string
 import nltk
 import os
 from nltk.stem import WordNetLemmatizer
-
 # Ensure WordNet is available (and cached in a known place)
 
 class CoLADataset(Dataset):
@@ -27,16 +26,7 @@ class CoLADataset(Dataset):
     def __len__(self):
         return len(self.ds)
     
-    def __getitem__(self, index):
-        nltk_data_path = "/root/nltk_data"
-        os.environ["NLTK_DATA"] = nltk_data_path
-        
-        try:
-            nltk.data.find("corpora/wordnet")
-        except LookupError:
-            nltk.download("wordnet", download_dir=nltk_data_path)
-            nltk.download("omw-1.4", download_dir=nltk_data_path)
-            
+    def __getitem__(self, index):    
         lemmatizer = WordNetLemmatizer()
 
         pair = self.ds[index]
