@@ -24,7 +24,7 @@ class CoLADataset(Dataset):
         return len(self.ds)
     
     def __getitem__(self, index):
-        lemmatizer = WordNetLemmatizer()
+        #lemmatizer = WordNetLemmatizer()
 
         pair = self.ds[index]
         src_text = pair["sentence"]
