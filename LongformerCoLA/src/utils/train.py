@@ -1,7 +1,11 @@
-import torch
 import nltk
-nltk.download('wordnet')
-nltk.download('omw-1.4')
+nltk.download('wordnet', download_dir='/root/nltk_data')
+nltk.download('omw-1.4', download_dir='/root/nltk_data')
+
+# Also explicitly set the path for nltk
+import os
+os.environ["NLTK_DATA"] = "/root/nltk_data"
+import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
